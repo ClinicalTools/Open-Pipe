@@ -4309,9 +4309,9 @@ MonoBehaviour:
     - eventName: Answer - Maybe, No Confidence
       ID: 2
       sentence: "You\u2019d be surprised. There\u2019s lots of support out there,
-        especially for someone with a good idea. The university has a whole office
-        on technology transfer dedicated to helping people like you. If you want to
-        promote it, you should attend networking events and find a mentor."
+        especially for someone with a good idea. The university technology transfer
+        office would help. You should attend the networking event that\u2019s starting
+        soon to get some encouragement."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -4397,8 +4397,10 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, What Would it Take?
       ID: 3
-      sentence: ' If you are interested in finding out more, you could ask the Technology
-        Transfer office here at the University Center.'
+      sentence: 'If you are interested in finding out more, you could talk to people
+        at the networking event that''s starting soon. You might find a mentor.  They
+        can introduce you to people and resources, help you develop a business plan,
+        and guide you based on their experience. '
       hasOptions: 0
       playerTalking: 0
       options:
@@ -4484,10 +4486,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - YES! MONEY!!
       ID: 3
-      sentence: "That sounds good! If you are interested in finding out more attend
-        the networking event that\x19s starting soon. Be sure to get some business
-        cards printed up and make lots of contacts. The University Technology Transfer
-        office is hosting it \x13 I saw a notice posted on the door."
+      sentence: That sounds good! If you are interested in finding out more, attend
+        the networking event that'#s starting soon. I saw a notice posted on the door.
+        Be sure to get some business cards printed up and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -4706,7 +4707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142047720}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.584, y: -1.2636769, z: -5.304}
+  m_LocalPosition: {x: -2.821, y: -1.2636769, z: -5.304}
   m_LocalScale: {x: 1.0487124, y: 1.0487124, z: 1.0487124}
   m_Children:
   - {fileID: 770196475}
@@ -8326,7 +8327,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f96346b311cc07e4caafc3ccad95dd35,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.18680046
+      value: 0.195
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f96346b311cc07e4caafc3ccad95dd35,
         type: 3}
@@ -8336,7 +8337,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f96346b311cc07e4caafc3ccad95dd35,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.23476404
+      value: 0.235
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f96346b311cc07e4caafc3ccad95dd35,
         type: 3}
@@ -22142,7 +22143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909628785}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1246319, y: 0, z: 0}
+  m_LocalPosition: {x: 0.12, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2081175926}
@@ -25293,7 +25294,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3eadaa0f44cae924b921a191350072bd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.481
+      value: 0.418
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3eadaa0f44cae924b921a191350072bd,
         type: 3}
@@ -25303,7 +25304,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3eadaa0f44cae924b921a191350072bd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.247
+      value: 0.374
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3eadaa0f44cae924b921a191350072bd,
         type: 3}
@@ -27103,9 +27104,9 @@ MonoBehaviour:
     - eventName: Answer - Maybe, No Confidence
       ID: 2
       sentence: "You\u2019d be surprised. There\u2019s lots of support out there,
-        especially for someone with a good idea. The university has a whole office
-        on technology transfer dedicated to helping people like you. If you want to
-        promote it, you should attend networking events and find a mentor."
+        especially for someone with a good idea. The university technology transfer
+        office would help. You should attend the networking event that\u2019s starting
+        soon to get some encouragement."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -27191,8 +27192,10 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, What Would it Take?
       ID: 3
-      sentence: ' If you are interested in finding out more, you could ask the Technology
-        Transfer office here at the University Center.'
+      sentence: If you are interested in finding out more, you could talk to people
+        at the networking event that's starting soon. You might find a mentor.  They
+        can introduce you to people and resources, help you develop a business plan,
+        and guide you based on their experience.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -27278,10 +27281,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - YES! MONEY!!
       ID: 3
-      sentence: "That sounds good! If you are interested in finding out more attend
-        the networking event that\x19s starting soon. Be sure to get some business
-        cards printed up and make lots of contacts. The University Technology Transfer
-        office is hosting it \x13 I saw a notice posted on the door."
+      sentence: That sounds good! If you are interested in finding out more, attend
+        the networking event that'#s starting soon. I saw a notice posted on the door.
+        Be sure to get some business cards printed up and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -27500,7 +27502,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091394969}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.51, y: -1.341, z: -4.36}
+  m_LocalPosition: {x: -2.816, y: -1.337, z: -4.045}
   m_LocalScale: {x: 1.0487124, y: 1.0487124, z: 1.0487124}
   m_Children:
   - {fileID: 1422224549}
@@ -30245,7 +30247,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187212894}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.544, y: -0.758, z: -3.169}
+  m_LocalPosition: {x: -0.83, y: -0.748, z: -3.169}
   m_LocalScale: {x: 1.2056684, y: 1.2056684, z: 1.2056684}
   m_Children:
   - {fileID: 188280534}
@@ -30738,7 +30740,7 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Answer
       ID: 1
-      sentence: ' Yes. Sue Jones in the blue print blouse.'
+      sentence: ' Yes. Sue Jones in the white jacket, purple blouse.'
       hasOptions: 0
       playerTalking: 0
       options:
@@ -33864,16 +33866,15 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Answer to Mentorship
       ID: 1
-      sentence: "I\u2019ve got a pretty full schedule but could give you a half hour
-        per month. However,  Dr. Ellington over there with the long hair is a highly
-        successful entrepreneur. He started at least 4 businesses. Or Ms. Jones over
-        there in the blue print blouse launched a startup a few years ago. You should
-        try talking to them."
+      sentence: "I\u2019ve got a pretty full schedule, but Dr. Ellington over there
+        with the white jacket behind me is a highly successful entrepreneur. He started
+        at least 4 businesses. Or Ms. Jones over there in the white jacket, purple
+        blouse launched a startup a few years ago. You should try talking to them."
       hasOptions: 0
       playerTalking: 0
       options:
       - actionName: Ask for mentorship
-        option: ' Can you mentor me to help me launch my business? '
+        option: 'Can you mentor me to help me launch my business? '
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -33920,15 +33921,14 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer to Pitch Tip
       ID: 2
-      sentence: 'Explain what you have achieved so far in developing your research
-        product idea, for example, peer reviewed presentations and publications, awards
-        and other recognition, any research funding of your own or of the lab you
-        work in. Or describe your plan for doing this. '
+      sentence: Explain what you or your lab have achieved so far in developing your
+        research product idea, for example, peer reviewed presentations, publications,
+        or awards.
       hasOptions: 0
       playerTalking: 0
       options:
       - actionName: Ask for mentorship
-        option: ' Can you mentor me to help me launch my business? '
+        option: 'Can you mentor me to help me launch my business? '
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -33986,10 +33986,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer to business tip
       ID: 2
-      sentence: If you come up with an idea for a business that can help others, do
-        good, make a difference, change things for the better, follow a passion or
-        dream, or make your mark. You can start your own business to make sure that
-        it happens.
+      sentence: If you come up with an idea for a business that can help others, follow
+        a passion or dream, or make your mark, you can start your own business to
+        make sure that it happens.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -41279,7 +41278,7 @@ MonoBehaviour:
                 m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
-      - actionName: Ask for tips on pitching your business idea
+      - actionName: Ask for tips on pitching a business
         option: 
         OptionClickedAction:
           m_PersistentCalls:
@@ -41382,9 +41381,7 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: career TIP
       ID: 3
-      sentence: Try new things. It may be uncomfortable at first, but you will benefit
-        and grow from the experience. And focus and prioritization are important.
-        Do what matters most first.
+      sentence: Focus and prioritization are important. Do what matters most first.
       hasOptions: 0
       playerTalking: 1
       options:
@@ -41493,9 +41490,8 @@ MonoBehaviour:
     - eventName: Thank you and continue
       ID: 5
       sentence: "You should pitch your business idea at the Technology Transfer Entrepreneur
-        competition if you are serious about starting a business. It could give you
-        a useful credential if you win and good practice for future pitches even if
-        you don\x19t."
+        competition. It could give you a useful credential if you win and good practice
+        for future pitches even if you don\u2019t."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -46078,7 +46074,7 @@ MonoBehaviour:
     - eventName: career TIP
       ID: 2
       sentence: Seek bosses who play to your strengths, hone them, and provide great
-        feedback3.Think about whether they have successful careers.
+        feedback.Think about whether they have successful careers.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -46506,10 +46502,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Business Tip
       ID: 3
-      sentence: If you come up with an idea for a business that can help others, do
-        good, make a difference, change things for the better, follow a passion or
-        dream, or make your mark. You can start your own business to make sure that
-        it happens.
+      sentence: "Don\u2019t spend the time to develop the perfect plan in every detail.
+        Make decisions quick enough to keep forward momentum. Most of your decisions
+        will likely be right or good enough. "
       hasOptions: 0
       playerTalking: 0
       options:
@@ -46561,10 +46556,7 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Career tip
       ID: 4
-      sentence: "Don\u2019t spend the time to develop the perfect plan in every detail.
-        Make decisions quick enough to keep forward momentum. Most of your decisions
-        will likely be right or good enough. Also, work at appearing confident. Brag
-        more. Own your accomplishments."
+      sentence: Work at appearing confident. Brag more. Own your accomplishments.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -48688,7 +48680,7 @@ MonoBehaviour:
       ID: 2
       sentence: "You\u2019d be surprised. There\u2019s lots of support out there,
         especially for someone with a good idea. The university technology transfer
-        office would help. You should attend the network event that\u2019s starting
+        office would help. You should attend the networking event that\u2019s starting
         soon to get some encouragement."
       hasOptions: 0
       playerTalking: 0
@@ -48867,7 +48859,7 @@ MonoBehaviour:
       sentence: "That sounds good! If you are interested in finding out more, you
         could attend the networking event that\u2019s starting soon. Be sure to get
         some business cards printed up and make lots of contacts. The University Technology
-        Transfer office is hosting it \u2013 I saw a notice posted on the door."
+        Transfer office is hosting it. I saw a notice posted on the door."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -49086,7 +49078,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802062890}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.459, y: -1.2636769, z: -1.371}
+  m_LocalPosition: {x: 0.35, y: -1.2636769, z: -1.371}
   m_LocalScale: {x: 1.0487124, y: 1.0487124, z: 1.0487124}
   m_Children:
   - {fileID: 2017203086}
@@ -53495,7 +53487,7 @@ MonoBehaviour:
     - eventName: Career tip
       ID: 2
       sentence: If you can get a Small Business Innovation Research (SBIR) grant for
-        a biomedical idea, you can apply for the NIH program ICorp. It's an 8-week
+        a biomedical idea, you can apply for the NIH program, ICorp. It's an 8-week
         program that will teach you how to develop your business plan and you can
         apply for funding to cover your costs.
       hasOptions: 0
@@ -64097,7 +64089,7 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[2].eventName
-      value: Answer - No It's For Science
+      value: Answer - No. I'm not interested in business
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64108,7 +64100,9 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogue.interactions.Array.data[2].sentence
       value: "You don\u2019t have to do any of the business part: You can hire a CEO
-        to do that. You can be the Chief Science Officer and run the lab. "
+        to do that. You can be the Chief Science Officer and run the lab. You should
+        attend the network event that\u2019s starting soon to learn more about your
+        options."
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64509,7 +64503,7 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[3].eventName
-      value: Answer - Maybe, No Confidence
+      value: Answer - A little interest but no confidence
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64520,9 +64514,9 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogue.interactions.Array.data[3].sentence
       value: "You\u2019d be surprised. There\u2019s lots of support out there, especially
-        for someone with a good idea. The university has a whole office on technology
-        transfer dedicated to helping people like you. If you want to promote it,
-        you should attend networking events and find a mentor."
+        for someone with a good idea. The university technology transfer office would
+        help. You should attend the networking event that\u2019s starting soon to
+        get some encouragement."
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64633,7 +64627,7 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[4].eventName
-      value: Answer - Maybe, What Would it Take?
+      value: Answer - Possible interest and curiosity
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64643,8 +64637,10 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[4].sentence
-      value: ' If you are interested in finding out more, you could ask the Technology
-        Transfer office here at the University Center.'
+      value: If you are interested in finding out more, you could talk to people at
+        the networking event that's starting soon. You might find a mentor. They can
+        introduce you to people and resources, help you develop a business plan, and
+        guide you based on their experience.
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64755,7 +64751,7 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[5].eventName
-      value: Answer - YES! MONEY!!
+      value: Answer - Interested in the money and impact
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64765,10 +64761,9 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[5].sentence
-      value: "That sounds good! If you are interested in finding out more attend the
-        networking event that\x19s starting soon. Be sure to get some business cards
-        printed up and make lots of contacts. The University Technology Transfer office
-        is hosting it \x13 I saw a notice posted on the door."
+      value: "That sounds good! If you are interested in finding out more, attend
+        the networking event that'\x19s starting soon.  I saw a notice posted on the
+        door. Be sure to get some business cards printed up and make lots of contacts. "
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -67200,10 +67195,12 @@ MonoBehaviour:
       afterTalkEvent:
         m_PersistentCalls:
           m_Calls: []
-    - eventName: Answer - No It's For Science
+    - eventName: "Answer - No. I\u2019m not interested in business"
       ID: 2
       sentence: "You don\u2019t have to do any of the business part: You can hire
-        a CEO to do that. You can be the Chief Science Officer and run the lab. "
+        a CEO to do that. You can be the Chief Science Officer and run the lab. ou
+        should attend the network event that\u2019s starting soon to learn more about
+        your options."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -67287,14 +67284,14 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-    - eventName: Answer - Maybe, No Confidence
+    - eventName: Answer - A little interest but no confidence
       ID: 2
       sentence: "You\u2019d be surprised. There\u2019s lots of support out there,
-        especially for someone with a good idea. The university has a whole office
-        on technology transfer dedicated to helping people like you. If you want to
-        promote it, you should attend networking events and find a mentor."
+        especially for someone with a good idea. The university technology transfer
+        office would help. You should attend the networking event that\u2019s starting
+        soon to get some encouragement."
       hasOptions: 0
-      playerTalking: 0
+      playerTalking: 1
       options:
       - actionName: No. Science is for its own sake
         option: 'Not me. I have no interest in dealing with business stuff. I enjoy
@@ -67378,8 +67375,10 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, What Would it Take?
       ID: 3
-      sentence: ' If you are interested in finding out more, you could ask the Technology
-        Transfer office here at the University Center.'
+      sentence: 'If you are interested in finding out more, you could talk to people
+        at the networking event that''s starting soon. You might find a mentor.  They
+        can introduce you to people and resources, help you develop a business plan,
+        and guide you based on their experience. '
       hasOptions: 0
       playerTalking: 0
       options:
@@ -67465,10 +67464,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - YES! MONEY!!
       ID: 3
-      sentence: "That sounds good! If you are interested in finding out more attend
-        the networking event that\x19s starting soon. Be sure to get some business
-        cards printed up and make lots of contacts. The University Technology Transfer
-        office is hosting it \x13 I saw a notice posted on the door."
+      sentence: That sounds good! If you are interested in finding out more, attend
+        the networking event that'#s starting soon. I saw a notice posted on the door.
+        Be sure to get some business cards printed up and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:
