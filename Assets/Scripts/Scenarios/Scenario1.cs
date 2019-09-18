@@ -61,10 +61,12 @@ public class Scenario1 : MonoBehaviour
     /// HAD TO ADD THIS BECAUSE UNITY VERSION BEING USED IS NOT STABLE AND GETS RID OF THESE VALUES THROUGH THE INSPECTOR FROM HAVING INTERNAL ISSUES
     /// </summary>
     public void AddObjectTips() {
-        objectTips.Add("The solution in your flasks over there on the counter turned green. You better check them.");
-        objectTips.Add("The centrifuge has finished. Could you unload it so I can use it?");
-        objectTips.Add("Did you get your materials out of the incubator?");
-        objectTips.Add("I put the reagent you asked for in the refrigerator. ");
+        objectTips.Add("Hello! I'm glad you're working in the lab today.");
+        objectTips.Add("We'd better get our lab work done if we want to make it on time to the networking event at the technology support center. ");
+        objectTips.Add("Hello! You asked me to let you know when the solution in your flasks turned green. They just did.");
+        objectTips.Add("I think the centrifuge has finished. When you’re done with it, let me know.");
+        objectTips.Add("I saw the petri dish you were looking for in the incubator.");
+        objectTips.Add("The reagent you ordered came in. I put it in the refrigerator. ");
 
     }
 
@@ -105,7 +107,7 @@ public class Scenario1 : MonoBehaviour
                 // CheckIfObjectsAndPeers();
                 ObjectivesManager.instance.CompletedObjective();
                 NotificationManager.instance.ObjectiveNotify("<b>Congratulations!</b>");
-                NotificationManager.instance.QuickNotify("You have a really great idea for starting a business based on your research!");
+                NotificationManager.instance.QuickNotify("<b>You have a really great idea for starting a business based on your research!</b>");
             }
         }
         else {
