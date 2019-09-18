@@ -6129,6 +6129,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.047012437
       objectReference: {fileID: 0}
+    - target: {fileID: -7143802195016519822, guid: c23b982a810905f45bd64a51f019e2f3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: -7143802195016519822, guid: c23b982a810905f45bd64a51f019e2f3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.61
+      objectReference: {fileID: 0}
+    - target: {fileID: -7143802195016519822, guid: c23b982a810905f45bd64a51f019e2f3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c23b982a810905f45bd64a51f019e2f3, type: 3}
 --- !u!4 &206790266 stripped
@@ -26488,7 +26503,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 6441ce92485d2ec44af9b9e9150c6d42,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.458
+      value: -0.414
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6441ce92485d2ec44af9b9e9150c6d42,
         type: 3}
@@ -30649,7 +30664,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209142206}
   m_LocalRotation: {x: -0, y: -0.3178054, z: -0, w: 0.948156}
-  m_LocalPosition: {x: 18.192, y: -1.2636769, z: -2.332}
+  m_LocalPosition: {x: 19.927, y: -1.354, z: -2.467}
   m_LocalScale: {x: 1.04871, y: 1.04871, z: 1.04871}
   m_Children:
   - {fileID: 1506380159}
@@ -33776,7 +33791,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337538388}
   m_LocalRotation: {x: -0, y: -0.9047042, z: -0, w: 0.42604038}
-  m_LocalPosition: {x: 22.292, y: -1.2636769, z: -2.86}
+  m_LocalPosition: {x: 21.993, y: -1.261, z: -2.312}
   m_LocalScale: {x: 1.0487124, y: 1.0487124, z: 1.0487124}
   m_Children:
   - {fileID: 298627561}
@@ -33806,8 +33821,9 @@ MonoBehaviour:
       hasOptions: 1
       playerTalking: 0
       options:
-      - actionName: Ask him to look at your work
-        option: Do you have time to look at my work?
+      - actionName: Ask to tell him your business idea
+        option: "Hello, can I tell you about my idea for a business? I\u2019m looking
+          for a potential mentor. "
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -33823,7 +33839,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for pitch tips
-        option: Do you have any advice for me for the pitch competition?
+        option: "I\u2019ve entered the pitch competition here. Do you have any advice
+          for me?"
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -33839,8 +33856,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for business tip
-        option: I have interest in starting a business, and wondered if you had any
-          tips?
+        option: "I\u2019m thinking of starting a business. With your experience, would
+          you recommend it?"
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -33873,8 +33890,9 @@ MonoBehaviour:
       hasOptions: 0
       playerTalking: 0
       options:
-      - actionName: Ask for mentorship
-        option: 'Can you mentor me to help me launch my business? '
+      - actionName: Ask to tell him about your business idea
+        option: "Hello, can I tell you about my idea for a business? I\u2019m looking
+          for a potential mentor. "
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -33927,8 +33945,9 @@ MonoBehaviour:
       hasOptions: 0
       playerTalking: 0
       options:
-      - actionName: Ask for mentorship
-        option: 'Can you mentor me to help me launch my business? '
+      - actionName: Ask to tell him about your business idea
+        option: "Hello, can I tell you about my idea for a business? I\u2019m looking
+          for a potential mentor. "
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -33986,9 +34005,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer to business tip
       ID: 2
-      sentence: If you come up with an idea for a business that can help others, follow
-        a passion or dream, or make your mark, you can start your own business to
-        make sure that it happens.
+      sentence: If you run your own business you are in charge. You could help others,
+        follow a passion or dream, or make your mark.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -37544,7 +37562,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473646779}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.526, y: -1.2636769, z: -4.256}
+  m_LocalPosition: {x: 21.47, y: -1.2636769, z: -3.437}
   m_LocalScale: {x: 1.0487124, y: 1.0487124, z: 1.0487124}
   m_Children:
   - {fileID: 1551343276}
@@ -41169,7 +41187,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584620319}
   m_LocalRotation: {x: -0, y: -0.3178054, z: -0, w: 0.948156}
-  m_LocalPosition: {x: 17.856, y: -1.2636769, z: 1.02}
+  m_LocalPosition: {x: 18.67, y: -1.2636769, z: -1.12}
   m_LocalScale: {x: 1.0487101, y: 1.04871, z: 1.0487101}
   m_Children:
   - {fileID: 1987618842}
@@ -41263,7 +41281,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for career tips
-        option: 
+        option: Do you have any career tips on how to succeed in this business?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -41279,7 +41297,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for tips on pitching a business
-        option: 
+        option: "I\u2019ve entered the pitch competition here. Do you have any advice
+          for me?"
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -41381,7 +41400,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: career TIP
       ID: 3
-      sentence: Focus and prioritization are important. Do what matters most first.
+      sentence: 'Try new things. It may be uncomfortable at first, but you will benefit
+        and grow from the experience. '
       hasOptions: 0
       playerTalking: 1
       options:
@@ -41434,9 +41454,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Pitch TIP
       ID: 4
-      sentence: "You should pitch your business idea at the Technology Transfer Entrepreneur
-        competition. It could give you a useful credential if you win and good practice
-        for future pitches even if you don\u2019t."
+      sentence: "That\u2019s a great idea! It could give you a useful credential if
+        you win and good practice for future pitches even if you don\u2019t."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -41489,9 +41508,7 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Thank you and continue
       ID: 5
-      sentence: "You should pitch your business idea at the Technology Transfer Entrepreneur
-        competition. It could give you a useful credential if you win and good practice
-        for future pitches even if you don\u2019t."
+      sentence: 'Thank you. I enjoyed talking with you. '
       hasOptions: 0
       playerTalking: 0
       options:
@@ -45928,7 +45945,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731868609}
   m_LocalRotation: {x: -0, y: -0.40152445, z: -0, w: 0.9158484}
-  m_LocalPosition: {x: 18.218, y: -1.2636769, z: 2.717}
+  m_LocalPosition: {x: 18.596, y: -1.2636769, z: -0.192}
   m_LocalScale: {x: 1.0487124, y: 1.0487124, z: 1.0487124}
   m_Children:
   - {fileID: 634159552}
@@ -46282,7 +46299,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732862995}
   m_LocalRotation: {x: -0, y: -0.9047042, z: -0, w: 0.42604038}
-  m_LocalPosition: {x: 23.683, y: -1.2636769, z: 2.607}
+  m_LocalPosition: {x: 22.43, y: -1.2636769, z: 2.473}
   m_LocalScale: {x: 1.04871, y: 1.04871, z: 1.04871}
   m_Children:
   - {fileID: 452712203}
@@ -46312,8 +46329,10 @@ MonoBehaviour:
       hasOptions: 1
       playerTalking: 0
       options:
-      - actionName: Ask him about mentorship
-        option: 'Can you mentor me to help me launch my business? '
+      - actionName: Deliver pitch and ask about mentorship
+        option: "I heard about your success as an entrepreneur. I was wondering if
+          you\u2019d hear my idea for a business to see what you think of it? I\u2019m
+          looking for a mentor."
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -46329,7 +46348,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for pitch tips
-        option: 'Do you have any advice for me for the pitch competition? '
+        option: "I\u2019ve entered the pitch competition here. Do you have any advice
+          for me?"
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -46345,8 +46365,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for business tips
-        option: I have interest in starting a business, and wondered if you had any
-          tips?
+        option: I have an idea for starting a business. Do you have any advice for
+          developing it?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -46363,7 +46383,7 @@ MonoBehaviour:
               m_CallState: 2
       - actionName: Ask about career development
         option: Do you have any advice for developing my career, now that I have an
-          idea for a buisness?
+          idea for a business?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -46384,14 +46404,15 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Answer - Mentorship
       ID: 1
-      sentence: "I\u2019d love to hear your pitch and give you some feedback. But,
-        I should let you know, I'm not able to get involved in any long term mentorship
-        right now."
+      sentence: "I\u2019d love to hear your pitch and give you some immediate feedback.
+        But I should let you know,  I only mentor corporate clients right now."
       hasOptions: 0
       playerTalking: 0
       options:
-      - actionName: Ask for mentorship
-        option: I was wondering if I could tell you about my business idea.
+      - actionName: Deliver pitch and ask about mentorship
+        option: "I heard about your success as an entrepreneur. I was wondering if
+          you\u2019d hear my idea for a business to see what you think of it? I\u2019m
+          looking for a mentor."
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -46443,8 +46464,10 @@ MonoBehaviour:
       hasOptions: 0
       playerTalking: 0
       options:
-      - actionName: Ask for mentorship
-        option: ' Can you mentor me to help me launch my business? '
+      - actionName: Deliver pitch and ask about mentorship
+        option: "I heard about your success as an entrepreneur. I was wondering if
+          you\u2019d hear my idea for a business to see what you think of it? I\u2019m
+          looking for a mentor."
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -53340,7 +53363,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921061386}
   m_LocalRotation: {x: -0, y: 0.60046494, z: -0, w: 0.79965115}
-  m_LocalPosition: {x: 21.99, y: -1.2636769, z: 2.501}
+  m_LocalPosition: {x: 20.961, y: -1.2636769, z: 2.202}
   m_LocalScale: {x: 1.0487124, y: 1.0487124, z: 1.0487124}
   m_Children:
   - {fileID: 1369375875}
@@ -53386,9 +53409,9 @@ MonoBehaviour:
                 m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
-      - actionName: Ask for a career tip
+      - actionName: Ask for a business tip
         option: I have an idea to start a business. Do you have any advice for developing
-          my career, now that I have an idea for a buisness?
+          it?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -53419,16 +53442,14 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Business Tip
       ID: 1
-      sentence: "Describe your solution and its unique value clearly in language everyone
-        understands. For example, \u201CI created a device that automates the most
-        time-consuming and sensitive step of isolating [important molecules], saving
-        hours of lab time and improving the quality of the isolate.\u201D "
+      sentence: 'Describe your solution and its unique value clearly in language everyone
+        understands. '
       hasOptions: 0
       playerTalking: 0
       options:
       - actionName: Ask for business advice
         option: I have an idea to start a business. Do you have any advice for developing
-          my career, now that I have an idea for a buisness?
+          it?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -53486,16 +53507,14 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Career tip
       ID: 2
-      sentence: If you can get a Small Business Innovation Research (SBIR) grant for
-        a biomedical idea, you can apply for the NIH program, ICorp. It's an 8-week
-        program that will teach you how to develop your business plan and you can
-        apply for funding to cover your costs.
+      sentence: Sure. Get a Small Business Innovative Research (SBIR) grant. Then,
+        you can apply for the NIH program ICorp to develop your business plan.
       hasOptions: 0
       playerTalking: 0
       options:
       - actionName: Ask for business advice
-        option: ' I have an idea to start a business. Do you have any advice for developing
-          my career, now that I have an idea for a buisness?'
+        option: I have an idea to start a business. Do you have any advice for developing
+          it?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
