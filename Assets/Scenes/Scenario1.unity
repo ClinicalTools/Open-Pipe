@@ -13166,7 +13166,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 08e339e81eb341f41a24307a8ad5652a, type: 3}
-    m_FontSize: 16
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -37585,7 +37585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Mary Jones
+    name: Mary McKinnon
     interactions:
     - eventName: Say Hello
       ID: 0
@@ -67062,7 +67062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Mary Jones
+    name: Mary McKinnon
     interactions:
     - eventName: TIP
       ID: 0
