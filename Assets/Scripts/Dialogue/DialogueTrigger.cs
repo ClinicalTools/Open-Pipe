@@ -119,8 +119,10 @@ public class DialogueTrigger : MonoBehaviour
 
         if (Scenario1.instance.finishedObjectiveFromObjects == false && Scenario1.instance.objectTips.Count > 0)
         {
+            Debug.Log("Queue Object Interaction triggered");
             Dialogue mydialogue = new Dialogue();
-            int ID = Random.Range(0, Scenario1.instance.objectTips.Count);
+            //int ID = Random.Range(0, Scenario1.instance.objectTips.Count);
+            int ID = 0;
             Interactions interactions = new Interactions(Scenario1.instance.objectTips[ID], false, null, null, false);
             mydialogue.interactions.Add(interactions);
             DialogueManager.instance.QueueInteraction(mydialogue, 0, false);
