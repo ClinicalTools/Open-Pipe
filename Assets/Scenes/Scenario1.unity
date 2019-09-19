@@ -1005,9 +1005,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 0}
-  playerTalk: Taking risks and having things not work out sometimes is part of innovation.
-    Learn from failures and use them to develop skills and understanding that may
-    contribute to a solution.
+  playerTalk: When you feel stuck in solving a problem, take a break and let your
+    unconscious mind work on solving it.
 --- !u!95 &40635763
 Animator:
   serializedVersion: 3
@@ -3210,14 +3209,15 @@ MonoBehaviour:
   index: 0
   objectives:
   - objectiveID: Start Task
-    objective: Work in the lab interacting with the equipment and interact with peers.
-      Learn about innovation and develop a research business idea based on your research.
+    objective: "Objective 1: Interact with lab equipment to learn tips on innovation
+      in research. After 2 tips, you\u2019ll get a business idea based on your research.
+      \ "
   - objectiveID: Discuss With Peers
-    objective: Discuss your new innovative idea with a peer by interacting with them.
+    objective: "Objective 1 \u2714 \nObjective 2: Discuss your innovative idea with
+      a peer by interacting with them. "
   - objectiveID: Attend Networking Event
-    objective: Attend a networking event to find a mentor and network with other students,
-      scientists, and entrepreneurs. Ask those in attendance for tips on creating
-      a pitch.
+    objective: "Objectives. 1 and 2 \u2714\nObjective. 3: Attend networking event
+      to find a mentor. Learn to pitch your idea."
   - objectiveID: Gather Final Tips
     objective: 
   - objectiveID: Find A Mentor
@@ -14711,9 +14711,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 0}
-  playerTalk: 'To come up with an innovative idea in research that might lead to an
-    entrepreneurial business, find a significant problem to solve, one that matters
-    a great deal to enough people. '
+  playerTalk: Learn from failures and use them to develop skills and understanding
+    that may contribute to a solution.
 --- !u!65 &602856428
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30331,8 +30330,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 1187212899}
-  playerTalk: 'Talk about the research problem that you are trying to solve and your
-    ideas to solve it with others, both in your field and outside of your field. '
+  playerTalk: 'Talk with others about a research problem you are trying to solve to
+    get new ideas and perspective. '
 --- !u!114 &1187212898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38290,9 +38289,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 0}
-  playerTalk: Notice and learn from unexpected results and mistakes, like the discoverer
-    of penicillin, Flemming, noticing that fungal contamination had stopped the growth
-    of a bacterial culture.
+  playerTalk: You might get an idea from a mistake! Remember penicillin was discovered
+    from fungal contamination of a bacterial culture.
 --- !u!114 &1491532474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45993,8 +45991,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for a career tip
-        option: I have an idea to start a business. Do you have any advice for developing
-          my career, now that I have an idea for a buisness?
+        option: I want to develop my career before launching a business. Do you have
+          any advice?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
