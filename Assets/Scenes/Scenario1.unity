@@ -905,8 +905,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 0}
-  playerTalk: When you feel stuck in solving a problem, take a break and let your
-    unconscious mind work on solving it.
+  playerTalk: "Here\u2019s a tip on innovation: When you feel stuck in solving a problem,
+    take a break and let your unconscious mind work on solving it."
 --- !u!95 &40635763
 Animator:
   serializedVersion: 3
@@ -4045,8 +4045,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Peer Interactions - 1
       ID: 1
-      sentence: Your work has real commercial potential! Have you thought about launching
-        a business?
+      sentence: Your research has real commercial potential! Have you thought about
+        launching a business?
       hasOptions: 1
       playerTalking: 0
       options:
@@ -4100,7 +4100,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Interested in the money and impact
-        option: Yes! The potential to reach people and maybe make money would be huge!
+        option: Yes! The potential to reach people and maybe make money could be huge!
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -4297,10 +4297,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, What Would it Take?
       ID: 3
-      sentence: 'If you are interested in finding out more, you could talk to people
-        at the networking event that''s starting soon. You might find a mentor.  They
-        can introduce you to people and resources, help you develop a business plan,
-        and guide you based on their experience. '
+      sentence: If you are interested in finding out more, you could talk to people
+        at the networking event that's starting soon. You might find a mentor.  They
+        can introduce you to people and resources, help you develop a business plan.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -4387,7 +4386,7 @@ MonoBehaviour:
     - eventName: Answer - YES! MONEY!!
       ID: 3
       sentence: That sounds good! If you are interested in finding out more, attend
-        the networking event that'#s starting soon. I saw a notice posted on the door.
+        the networking event that's starting soon. I saw a notice posted on the door.
         Be sure to get some business cards printed up and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
@@ -14611,8 +14610,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 0}
-  playerTalk: Learn from failures and use them to develop skills and understanding
-    that may contribute to a solution.
+  playerTalk: "Here\u2019s a tip on innovation: Learn from failures and use them to
+    develop skills and understanding that may contribute to a solution."
 --- !u!65 &602856428
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16940,9 +16939,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 0}
-  playerTalk: 'To come up with an innovative idea in research that might lead to an
-    entrepreneurial business, find a significant problem to solve, one that matters
-    a great deal to enough people. '
+  playerTalk: "Here\u2019s a tip on science entrepreneurship: For a successful business,
+    find a significant problem to solve, one that matters a great deal to enough people. "
 --- !u!114 &702470895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26754,8 +26752,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Peer Interactions - 1
       ID: 1
-      sentence: Your work has real commercial potential! Have you thought about launching
-        a business?
+      sentence: Your research has real commercial potential! Have you thought about
+        launching a business?
       hasOptions: 1
       playerTalking: 0
       options:
@@ -26809,7 +26807,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Interested in the money and impact
-        option: Yes! The potential to reach people and maybe make money would be huge!
+        option: Yes! The potential to reach people and maybe make money could be huge!
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -27008,8 +27006,7 @@ MonoBehaviour:
       ID: 3
       sentence: If you are interested in finding out more, you could talk to people
         at the networking event that's starting soon. You might find a mentor.  They
-        can introduce you to people and resources, help you develop a business plan,
-        and guide you based on their experience.
+        can introduce you to people and resources, help you develop a business plan.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -27096,7 +27093,7 @@ MonoBehaviour:
     - eventName: Answer - YES! MONEY!!
       ID: 3
       sentence: That sounds good! If you are interested in finding out more, attend
-        the networking event that'#s starting soon. I saw a notice posted on the door.
+        the networking event that's starting soon. I saw a notice posted on the door.
         Be sure to get some business cards printed up and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
@@ -30230,8 +30227,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 1187212899}
-  playerTalk: 'Talk with others about a research problem you are trying to solve to
-    get new ideas and perspective. '
+  playerTalk: "Here\u2019s a tip on innovation: Talk with others about a research
+    problem you are trying to solve to get new ideas and perspective. "
 --- !u!114 &1187212898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30595,7 +30592,8 @@ MonoBehaviour:
       playerTalking: 0
       options:
       - actionName: "Ask who\u2019s a good mentor"
-        option: Do you know anyone here who would make a good mentor for my idea?
+        option: Do you know anyone here who would make a good mentor to help me with
+          a business startup?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -30627,8 +30625,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for career tip
-        option: ' I have an idea to start a business. Do you have any advice for developing
-          my career, now that I have an idea for a buisness?'
+        option: "I\u2019ll be finishing graduate school soon. Do you have any advice
+          for developing my career?"
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -30654,12 +30652,14 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Answer
       ID: 1
-      sentence: ' Yes. Sue Jones in the white jacket, purple blouse.'
+      sentence: ' Yes. Sue Jones in the white jacket, purple blouse. She started her
+        business a few years ago and is very successful.'
       hasOptions: 0
       playerTalking: 0
       options:
       - actionName: Ask for mentor advise
-        option: Do you know anyone here who would make a good mentor for my idea?
+        option: Do you know anyone here who would make a good mentor to help me with
+          a business startup?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -30706,13 +30706,14 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Pitch Tip
       ID: 2
-      sentence: Look online for a pitch outline. It will help you understand what
-        to include.
+      sentence: Yes, I recommend looking online for a pitch outline. It will help
+        you understand what to include.
       hasOptions: 0
       playerTalking: 0
       options:
       - actionName: Ask for mentor advise
-        option: Do you know anyone here who would make a good mentor for my idea?
+        option: Do you know anyone here who would make a good mentor to help me with
+          a business startup?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -33763,10 +33764,10 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Answer to Mentorship
       ID: 1
-      sentence: "I\u2019ve got a pretty full schedule, but Dr. Ellington over there
-        with the white jacket behind me is a highly successful entrepreneur. He started
-        at least 4 businesses. Or Ms. Jones over there in the white jacket, purple
-        blouse launched a startup a few years ago. You should try talking to them."
+      sentence: "I\u2019ve got a pretty full schedule, but Dr. Ellington in the white
+        jacket behind me started at least 4 businesses. And Ms. Jones in the white
+        jacket, purple blouse launched a startup a few years ago. You should try talking
+        to them."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -33819,9 +33820,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer to Pitch Tip
       ID: 2
-      sentence: Explain what you or your lab have achieved so far in developing your
-        research product idea, for example, peer reviewed presentations, publications,
-        or awards.
+      sentence: Yes. Be sure to explain what you or your lab have achieved so far
+        in developing your research product idea, for example, peer reviewed presentations,
+        publications, or awards.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -33885,8 +33886,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer to business tip
       ID: 2
-      sentence: If you run your own business you are in charge. You could help others,
-        follow a passion or dream, or make your mark.
+      sentence: Yes, because if you run your own business you are in charge. You could
+        help others, follow a passion or dream, or make your mark in the world.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -37546,8 +37547,8 @@ MonoBehaviour:
       ID: 1
       sentence: "Hi, I\u2019m in a molecular agriculture post doc at VonRand U and
         came to get some feedback on an idea I developed for changing almonds genetically
-        so they will grow with less water. I\u2019m excited about helping farmers
-        grow almonds even during droughts and improving the community water supply."
+        so they will grow with less water. I\u2019m excited about improving the community
+        water supply."
       hasOptions: 1
       playerTalking: 0
       options:
@@ -37599,8 +37600,8 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Peer Response
       ID: 2
-      sentence: 'Yes. It was intense! You know the secret is to keep it brief, get
-        to the point quickly, and focus on the most important parts. '
+      sentence: 'Yes. It was intense! I think that the secret is to keep it brief,
+        get to the point quickly, and focus on the most important parts. '
       hasOptions: 0
       playerTalking: 0
       options:
@@ -38204,8 +38205,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 0}
-  playerTalk: You might get an idea from a mistake! Remember penicillin was discovered
-    from fungal contamination of a bacterial culture.
+  playerTalk: "Here\u2019s a tip on innovation: You might get an idea from a mistake!
+    Remember penicillin was discovered from fungal contamination of a bacterial culture."
 --- !u!114 &1491532474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41421,7 +41422,7 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Thank you and continue
       ID: 5
-      sentence: 'Thank you. I enjoyed talking with you. '
+      sentence: I enjoyed talking with you, too.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -48579,8 +48580,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Peer Interactions - 1
       ID: 1
-      sentence: Your work has real commercial potential! Have you thought about launching
-        a business?
+      sentence: Your research has real commercial potential! Have you thought about
+        launching a business?
       hasOptions: 1
       playerTalking: 0
       options:
@@ -48634,7 +48635,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Interested in the money and impact
-        option: Yes! The potential to reach people and maybe make money would be huge!
+        option: Yes! The potential to reach people and maybe make money could be huge!
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -48835,8 +48836,7 @@ MonoBehaviour:
       ID: 3
       sentence: "If you are interested in finding out more, you could attend the networking
         event that\u2019s starting soon to find a mentor. They can introduce you to
-        people and resources, help you develop a business plan, and guide you based
-        on their experience."
+        people and resources, help you develop a business plan."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -48922,10 +48922,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Interested in the money and impact
       ID: 3
-      sentence: "That sounds good! If you are interested in finding out more, you
-        could attend the networking event that\u2019s starting soon. Be sure to get
-        some business cards printed up and make lots of contacts. The University Technology
-        Transfer office is hosting it. I saw a notice posted on the door."
+      sentence: That sounds good! If you are interested in finding out more, attend
+        the networking event that's starting soon.  I saw a notice posted on the door.
+        Be sure to get some business cards printed up and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -64120,7 +64119,7 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[1].sentence
-      value: Your work has real commercial potential! Have you thought about launching
+      value: Your research has real commercial potential! Have you thought about launching
         a business?
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
@@ -64161,10 +64160,9 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[2].sentence
-      value: "You don\u2019t have to do any of the business part: You can hire a CEO
-        to do that. You can be the Chief Science Officer and run the lab. You should
-        attend the network event that\u2019s starting soon to learn more about your
-        options."
+      value: "You don\u2019t have to do the business part: You can hire a CEO to do
+        that. You can be the Chief Science Officer and run the lab. You could learn
+        about your options at the networking event."
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64575,10 +64573,9 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[3].sentence
-      value: "You\u2019d be surprised. There\u2019s lots of support out there, especially
-        for someone with a good idea. The university technology transfer office would
-        help. You should attend the networking event that\u2019s starting soon to
-        get some encouragement."
+      value: "You\u2019d be surprised. There\u2019s lots of support out there for
+        someone with a good idea at the university technology transfer office. You
+        would get encouragement at the networking event, too."
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64700,9 +64697,8 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogue.interactions.Array.data[4].sentence
       value: If you are interested in finding out more, you could talk to people at
-        the networking event that's starting soon. You might find a mentor. They can
-        introduce you to people and resources, help you develop a business plan, and
-        guide you based on their experience.
+        the networking event that's starting soon. You might find a mentor to guide
+        you.
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64823,9 +64819,8 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[5].sentence
-      value: "That sounds good! If you are interested in finding out more, attend
-        the networking event that'\x19s starting soon.  I saw a notice posted on the
-        door. Be sure to get some business cards printed up and make lots of contacts. "
+      value: "That sounds good! You could find out more at the networking event that'\x19s
+        starting soon. Be sure to print up some business cards and make lots of contacts. "
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -65103,7 +65098,7 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[1].options.Array.data[3].option
-      value: Yes! The potential to reach people and maybe make money would be huge!
+      value: Yes! The potential to reach people and maybe make money could be huge!
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -67183,8 +67178,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Peer Interactions - 1
       ID: 1
-      sentence: Your work has real commercial potential! Have you thought about launching
-        a business?
+      sentence: Your research has real commercial potential! Have you thought about
+        launching a business?
       hasOptions: 1
       playerTalking: 0
       options:
@@ -67238,7 +67233,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Interested in the money and impact
-        option: Yes! The potential to reach people and maybe make money would be huge!
+        option: Yes! The potential to reach people and maybe make money could be huge!
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -67437,10 +67432,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, What Would it Take?
       ID: 3
-      sentence: 'If you are interested in finding out more, you could talk to people
-        at the networking event that''s starting soon. You might find a mentor.  They
-        can introduce you to people and resources, help you develop a business plan,
-        and guide you based on their experience. '
+      sentence: If you are interested in finding out more, you could talk to people
+        at the networking event that's starting soon. You might find a mentor.  They
+        can introduce you to people and resources, help you develop a business plan.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -67527,7 +67521,7 @@ MonoBehaviour:
     - eventName: Answer - YES! MONEY!!
       ID: 3
       sentence: That sounds good! If you are interested in finding out more, attend
-        the networking event that'#s starting soon. I saw a notice posted on the door.
+        the networking event that's starting soon. I saw a notice posted on the door.
         Be sure to get some business cards printed up and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
