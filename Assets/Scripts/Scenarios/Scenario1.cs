@@ -97,7 +97,7 @@ public class Scenario1 : MonoBehaviour
             usedIncubator = true;
         }
 
-        if (interactedObjects >= 3)
+        if (interactedObjects >= 2)
         {
             if (finishedObjectiveFromObjects != true)
             {
