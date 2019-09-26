@@ -4224,9 +4224,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, No Confidence
       ID: 2
-      sentence: "You\u2019d be surprised. There\u2019s lots of support out there for
-        someone with a good idea at the university technology transfer office. You
-        would get encouragement at the networking event, too."
+      sentence: "You\u2019d be surprised. For example, there\u2019s lots of support
+        at the university technology transfer office. You would get encouragement
+        at the networking event, too."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -26931,9 +26931,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, No Confidence
       ID: 2
-      sentence: "You\u2019d be surprised. There\u2019s lots of support out there for
-        someone with a good idea at the university technology transfer office. You
-        would get encouragement at the networking event, too."
+      sentence: "You\u2019d be surprised. For example, there\u2019s lots of support
+        at the university technology transfer office. You would get encouragement
+        at the networking event, too."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -41160,7 +41160,7 @@ MonoBehaviour:
       playerTalking: 0
       options:
       - actionName: Introduce yourself
-        option: "Hello, Ms. Jones, I work in John Dole\u2019s lab and he said to talk
+        option: "Hello, Dr. Jones, I work in John Dole\u2019s lab and he said to talk
           to you. I\u2019ve read all your papers and found them very helpful in my
           project, which is [You would deliver your brief, academic focused elevator
           pitch at this point...]."
@@ -41200,7 +41200,7 @@ MonoBehaviour:
     - eventName: Talk about herself
       ID: 1
       sentence: Your research sounds interesting. John Dole was my advisor, too!  [You
-        discuss your research a bit, and find that Ms. Jones seems very interested
+        discuss your research a bit, and find that Dr. Jones seems very interested
         and asked some helpful questions].
       hasOptions: 1
       playerTalking: 0
@@ -41239,8 +41239,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for tips on pitching a business
-        option: "I\u2019ve entered the pitch competition here. Do you have any advice
-          for me?"
+        option: "I\u2019m thinking of entering the pitch competition here. What do
+          you think? Is that worthwhile?"
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -41342,8 +41342,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: career TIP
       ID: 3
-      sentence: 'Try new things. It may be uncomfortable at first, but you will benefit
-        and grow from the experience. '
+      sentence: 'Yes. Be sure to try new things. It may be uncomfortable at first,
+        but you will benefit and grow from the experience. '
       hasOptions: 0
       playerTalking: 1
       options:
@@ -46097,8 +46097,8 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Business TIP
       ID: 1
-      sentence: 'You need to define your target market. Who would benefit from using
-        your product? '
+      sentence: 'Yes. You need to define your target market. Who would benefit from
+        using your product? '
       hasOptions: 0
       playerTalking: 0
       options:
@@ -46162,14 +46162,14 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: career TIP
       ID: 2
-      sentence: Seek bosses who play to your strengths, hone them, and provide great
-        feedback.Think about whether they have successful careers.
+      sentence: Yes. Seek bosses who play to your strengths, hone them, and provide
+        great feedback.Think about whether they have successful careers.
       hasOptions: 0
       playerTalking: 0
       options:
       - actionName: Ask for business advice
-        option: ' I have an idea to start a business. Do you have any advice for developing
-          my career, now that I have an idea for a buisness?'
+        option: I have an idea to start a business. Do you have any advice for me
+          as I get started?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -46531,8 +46531,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Pitch Tip
       ID: 2
-      sentence: 'Be sure to check online to see if you have any competition for your
-        business idea and be prepared to discuss it. '
+      sentence: 'Yes. Be sure to check online to see if you have any competition for
+        your business idea and be prepared to discuss it. '
       hasOptions: 0
       playerTalking: 0
       options:
@@ -46597,9 +46597,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Business Tip
       ID: 3
-      sentence: "Don\u2019t spend the time to develop the perfect plan in every detail.
-        Make decisions quick enough to keep forward momentum. Most of your decisions
-        will likely be right or good enough. "
+      sentence: "Yes. Don\u2019t spend the time to develop the perfect plan in every
+        detail. Make decisions quickly enough to keep forward momentum. Most of your
+        decisions will likely be right or good enough. "
       hasOptions: 0
       playerTalking: 0
       options:
@@ -46651,7 +46651,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Career tip
       ID: 4
-      sentence: Work at appearing confident. Brag more. Own your accomplishments.
+      sentence: Yes. Work at appearing confident. Be sure to brag when you've earned
+        it. Own your accomplishments.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -48772,9 +48773,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - A little interest but no confidence
       ID: 2
-      sentence: "You\u2019d be surprised. There\u2019s lots of support out there for
-        someone with a good idea at the university technology transfer office. You
-        would get encouragement at the networking event, too."
+      sentence: "You\u2019d be surprised. For example, there\u2019s lots of support
+        at the university technology transfer office. You would get encouragement
+        at the networking event, too."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -53510,8 +53511,8 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Business Tip
       ID: 1
-      sentence: 'Describe your solution and its unique value clearly in language everyone
-        understands. '
+      sentence: 'Yes. Make sure you describe your solution and its unique value clearly
+        in language everyone understands. '
       hasOptions: 0
       playerTalking: 0
       options:
@@ -64599,9 +64600,9 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[3].sentence
-      value: "You\u2019d be surprised. There\u2019s lots of support out there for
-        someone with a good idea at the university technology transfer office. You
-        would get encouragement at the networking event, too."
+      value: "You\u2019d be surprised. For example, there\u2019s lots of support at
+        the university technology transfer office. You would get encouragement at
+        the networking event, too."
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -67369,9 +67370,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - A little interest but no confidence
       ID: 2
-      sentence: "You\u2019d be surprised. There\u2019s lots of support out there for
-        someone with a good idea at the university technology transfer office. You
-        would get encouragement at the networking event, too."
+      sentence: "You\u2019d be surprised. For example, there\u2019s lots of support
+        at the university technology transfer office. You would get encouragement
+        at the networking event, too."
       hasOptions: 0
       playerTalking: 1
       options:
