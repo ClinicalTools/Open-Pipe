@@ -33786,8 +33786,8 @@ MonoBehaviour:
       playerTalking: 0
       options:
       - actionName: Ask to tell him about your business idea
-        option: "Hello, can I tell you about my idea for a business? I\u2019m looking
-          for a potential mentor. "
+        option: "Can I tell you about my idea for a business? I\u2019m looking for
+          a potential mentor. "
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -33841,8 +33841,8 @@ MonoBehaviour:
       playerTalking: 0
       options:
       - actionName: Ask to tell him about your business idea
-        option: "Hello, can I tell you about my idea for a business? I\u2019m looking
-          for a potential mentor. "
+        option: "Can I tell you about my idea for a business? I\u2019m looking for
+          a potential mentor. "
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -33906,7 +33906,8 @@ MonoBehaviour:
       playerTalking: 0
       options:
       - actionName: Ask for mentorship
-        option: ' Can you mentor me to help me launch my business? '
+        option: "Can I tell you about my idea for a business? I\u2019m looking for
+          a potential mentor. "
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -41162,8 +41163,7 @@ MonoBehaviour:
       - actionName: Introduce yourself
         option: "Hello, Dr. Jones, I work in John Dole\u2019s lab and he said to talk
           to you. I\u2019ve read all your papers and found them very helpful in my
-          project, which is [You would deliver your brief, academic focused elevator
-          pitch at this point...]."
+          project, which ..."
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -53511,7 +53511,7 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Business Tip
       ID: 1
-      sentence: 'Yes. Make sure you describe your solution and its unique value clearly
+      sentence: 'Yes. Make sure you describe your idea and its unique value clearly
         in language everyone understands. '
       hasOptions: 0
       playerTalking: 0
