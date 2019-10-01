@@ -61,9 +61,9 @@ public class Scenario1 : MonoBehaviour
     /// HAD TO ADD THIS BECAUSE UNITY VERSION BEING USED IS NOT STABLE AND GETS RID OF THESE VALUES THROUGH THE INSPECTOR FROM HAVING INTERNAL ISSUES
     /// </summary>
     public void AddObjectTips() {
-        objectTips.Add("Hello! I'm glad you're working in the lab today. Don’t forget the Science Entrepreneurship networking event is today.");
-        objectTips.Add("We'd better get our lab work done if we want to make it on time to the networking event at the technology support center. ");
-        objectTips.Add("Hello! You asked me to let you know when the solution in your flasks turned green. It just did.");
+        objectTips.Add("Hello! I'm glad you're in the lab. Don’t forget the networking event for meeting biotech entrepreneurs is today.");
+        objectTips.Add("We'd better get our lab work done if we want to make it on time to the networking event. ");
+        objectTips.Add("Hello! The solution in the flasks you asked me to watch for you just turned green.");
         objectTips.Add("I think the centrifuge has finished. When you’re done with it, let me know.");
         objectTips.Add("I saw the petri dish you were looking for in the incubator.");
         objectTips.Add("The reagent you ordered came in. I put it in the refrigerator.");
@@ -107,7 +107,7 @@ public class Scenario1 : MonoBehaviour
                 // CheckIfObjectsAndPeers();
                 ObjectivesManager.instance.CompletedObjective();
                 NotificationManager.instance.ObjectiveNotify("<b>Congratulations!</b>");
-                NotificationManager.instance.QuickNotify("<b>You have a really great idea for starting a business based on your research!</b>");
+                NotificationManager.instance.QuickNotify("<b>You have a great idea based on your research! You could start a business with it!</b>");
             }
         }
         else {

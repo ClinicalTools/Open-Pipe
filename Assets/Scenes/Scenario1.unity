@@ -3129,7 +3129,7 @@ MonoBehaviour:
       \ "
   - objectiveID: Discuss With Peers
     objective: "Objective 1 \u2714 \nObjective 2: Discuss your innovative idea with
-      a peer by interacting with them. "
+      a peer. "
   - objectiveID: Attend Networking Event
     objective: "Objectives. 1 and 2 \u2714\nObjective. 3: Attend networking event
       to find a mentor. Learn to pitch your idea."
@@ -4136,9 +4136,9 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Answer - No It's For Science
       ID: 2
-      sentence: "You don\u2019t have to do the business part: You can hire a CEO to
-        do that. You can be the Chief Science Officer and run the lab. You could learn
-        about your options at the networking event."
+      sentence: "You can hire a CEO to run the business. You can be the Chief Science
+        Officer and run the lab. You could learn your options at the networking event
+        that\u2019s starting soon."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -4224,9 +4224,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, No Confidence
       ID: 2
-      sentence: "You\u2019d be surprised. For example, there\u2019s lots of support
-        at the university technology transfer office. You would get encouragement
-        at the networking event, too."
+      sentence: "You\u2019d be surprised. You could get help at the technology transfer
+        office or talk with people at the networking event that\u2019s starting soon."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -4312,9 +4311,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, What Would it Take?
       ID: 3
-      sentence: If you are interested in finding out more, you could talk to people
-        at the networking event that's starting soon. You might find a mentor to guide
-        you.
+      sentence: You could ask people at the networking event that's starting soon.
+        You might find a mentor who could help you.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -4400,9 +4398,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - YES! MONEY!!
       ID: 3
-      sentence: 'That sounds good! You could find out more at the networking event
-        that is starting soon. Be sure to print up some business cards and make lots
-        of contacts. '
+      sentence: I agree! If you go to the networking event that's starting soon, be
+        sure share your idea, take some business cards, and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -6307,6 +6304,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 832862370}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
+        type: 3}
+      propertyPath: m_Name
+      value: pen01 (5)
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6376,11 +6378,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.1751972
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
-        type: 3}
-      propertyPath: m_Name
-      value: pen01 (5)
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
         type: 3}
@@ -7213,6 +7210,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerMonitor
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7282,16 +7289,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5871037
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerMonitor
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
@@ -8998,6 +8995,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 832862370}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
+        type: 3}
+      propertyPath: m_Name
+      value: pen01 (7)
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9067,11 +9069,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.1751972
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
-        type: 3}
-      propertyPath: m_Name
-      value: pen01 (7)
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
         type: 3}
@@ -9907,6 +9904,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9976,16 +9983,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 13.827945
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -10197,6 +10194,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5133913965574556032, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010309020798225115, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6173053900511452925, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6615017778036176718, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3eadaa0f44cae924b921a191350072bd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10266,26 +10283,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.95355
-      objectReference: {fileID: 0}
-    - target: {fileID: 5133913965574556032, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9010309020798225115, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -6173053900511452925, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -6615017778036176718, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -9147868553947026619, guid: 3eadaa0f44cae924b921a191350072bd,
         type: 3}
@@ -14154,6 +14151,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 832862370}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
+        type: 3}
+      propertyPath: m_Name
+      value: pen01 (1)
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14223,11 +14225,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.1751972
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
-        type: 3}
-      propertyPath: m_Name
-      value: pen01 (1)
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
         type: 3}
@@ -22222,6 +22219,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22291,16 +22298,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 13.827945
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -22989,6 +22986,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23058,16 +23065,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 13.827945
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -25098,6 +25095,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Female-Generic-2-Lab
       objectReference: {fileID: 0}
+    - target: {fileID: 5133913965574556032, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010309020798225115, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6173053900511452925, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6615017778036176718, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3eadaa0f44cae924b921a191350072bd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25167,26 +25184,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.95355
-      objectReference: {fileID: 0}
-    - target: {fileID: 5133913965574556032, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9010309020798225115, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -6173053900511452925, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -6615017778036176718, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -9147868553947026619, guid: 3eadaa0f44cae924b921a191350072bd,
         type: 3}
@@ -26843,9 +26840,9 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Answer - No It's For Science
       ID: 2
-      sentence: "You don\u2019t have to do the business part: You can hire a CEO to
-        do that. You can be the Chief Science Officer and run the lab. You could learn
-        about your options at the networking event."
+      sentence: "You can hire a CEO to run the business. You can be the Chief Science
+        Officer and run the lab. You could learn your options at the networking event
+        that\u2019s starting soon."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -26931,9 +26928,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, No Confidence
       ID: 2
-      sentence: "You\u2019d be surprised. For example, there\u2019s lots of support
-        at the university technology transfer office. You would get encouragement
-        at the networking event, too."
+      sentence: "You\u2019d be surprised. You could get help at the technology transfer
+        office or talk with people at the networking event that\u2019s starting soon."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -27019,9 +27015,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, What Would it Take?
       ID: 3
-      sentence: If you are interested in finding out more, you could talk to people
-        at the networking event that's starting soon. You might find a mentor to guide
-        you.
+      sentence: You could ask people at the networking event that's starting soon.
+        You might find a mentor who could help you.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -27107,9 +27102,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - YES! MONEY!!
       ID: 3
-      sentence: 'That sounds good! You could find out more at the networking event
-        that is starting soon. Be sure to print up some business cards and make lots
-        of contacts. '
+      sentence: I agree! If you go to the networking event that's starting soon, be
+        sure share your idea, take some business cards, and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -29576,6 +29570,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 832862370}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
+        type: 3}
+      propertyPath: m_Name
+      value: pen01
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29645,11 +29644,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.1751972
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
-        type: 3}
-      propertyPath: m_Name
-      value: pen01
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
         type: 3}
@@ -30721,8 +30715,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Pitch Tip
       ID: 2
-      sentence: Yes, I recommend looking online for a pitch outline. It will help
-        you understand what to include.
+      sentence: Yes, I recommend looking online for an outline that tells you what
+        to include.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -33735,8 +33729,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for pitch tips
-        option: "I\u2019ve entered the pitch competition here. Do you have any advice
-          for me?"
+        option: "I\u2019m going to enter the pitch competition here. Do you have any
+          advice for me?"
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -33779,9 +33773,9 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Answer to Mentorship
       ID: 1
-      sentence: "I\u2019ve got a pretty full schedule, but try Dr. Ellington in the
-        white jacket behind me. He started 4 businesses. And Ms. Jones in the white
-        jacket, purple blouse has a successful startup."
+      sentence: "I\u2019ve got a full schedule, but Dr. Ellington in the white jacket
+        behind me started 4 businesses. And Ms. Jones in the white jacket, purple
+        blouse has a successful startup."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -33835,8 +33829,7 @@ MonoBehaviour:
     - eventName: Answer to Pitch Tip
       ID: 2
       sentence: Yes. Be sure to explain what you or your lab have achieved so far
-        in developing your research product idea, for example, peer reviewed presentations,
-        publications, or awards.
+        in developing your research product idea, for example, publications, or awards.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -37560,9 +37553,9 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Give NPC Pitch
       ID: 1
-      sentence: "Hi, I\u2019m in a molecular agriculture post doc at VonRand U and
-        came to get some feedback on an idea I developed for changing almonds genetically
-        so they will grow with less water. "
+      sentence: "Hi, I\u2019m a molecular agriculture post doc at VonRand U and came
+        to get some feedback on an idea I developed for changing almonds genetically
+        so they use less water to grow. "
       hasOptions: 1
       playerTalking: 0
       options:
@@ -37614,8 +37607,8 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Peer Response
       ID: 2
-      sentence: 'Yes. It was intense! I think that the secret is to keep it brief,
-        get to the point quickly, and focus on the most important parts. '
+      sentence: 'Yes. It was intense! The secret is to keep it brief, get to the point
+        quickly, and focus on the most important parts. '
       hasOptions: 0
       playerTalking: 0
       options:
@@ -39880,6 +39873,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 832862370}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 44f923b66ea3c9e47842ca782bb69be5,
+        type: 3}
+      propertyPath: m_Name
+      value: paper01 (2)
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 44f923b66ea3c9e47842ca782bb69be5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39950,11 +39948,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.44166562
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 44f923b66ea3c9e47842ca782bb69be5,
-        type: 3}
-      propertyPath: m_Name
-      value: paper01 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 44f923b66ea3c9e47842ca782bb69be5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -39969,6 +39962,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40038,16 +40041,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 13.827945
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -41014,6 +41007,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 832862370}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 44f923b66ea3c9e47842ca782bb69be5,
+        type: 3}
+      propertyPath: m_Name
+      value: paper01 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 44f923b66ea3c9e47842ca782bb69be5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41083,11 +41081,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.44166562
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 44f923b66ea3c9e47842ca782bb69be5,
-        type: 3}
-      propertyPath: m_Name
-      value: paper01 (3)
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 44f923b66ea3c9e47842ca782bb69be5,
         type: 3}
@@ -41159,7 +41152,7 @@ MonoBehaviour:
       - actionName: Introduce yourself
         option: "Hello, Dr. Jones, I work in John Dole\u2019s lab and he said to talk
           to you. I\u2019ve read all your papers and found them very helpful in my
-          project, which ..."
+          project, which is..."
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -41195,9 +41188,8 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Talk about herself
       ID: 1
-      sentence: Your research sounds interesting. John Dole was my advisor, too!  [You
-        discuss your research a bit, and find that Dr. Jones seems very interested
-        and asked some helpful questions].
+      sentence: Your research sounds interesting. John Dole was my advisor, too! [You
+        discuss your research and Dr. Jones seems interested].
       hasOptions: 1
       playerTalking: 0
       options:
@@ -41273,8 +41265,8 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Advisor TIP
       ID: 2
-      sentence: "Let\u2019s schedule a coffee and you can tell me more about your
-        idea. Here\u2019s my card so you can send me an email. Can I have your card? "
+      sentence: "Let\u2019s exchange cards and you can send me an email. We can schedule
+        a coffee and you can tell me more about your idea. "
       hasOptions: 0
       playerTalking: 0
       options:
@@ -42214,6 +42206,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerMonitor (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42283,16 +42285,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5871037
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerMonitor (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
@@ -46056,7 +46048,8 @@ MonoBehaviour:
       playerTalking: 0
       options:
       - actionName: Ask for a pitch tip
-        option: 'Do you have any advice for me for the pitch competition? '
+        option: 'I was wondering if you have any advice for doing well in the pitch
+          competition? '
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -46169,8 +46162,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: career TIP
       ID: 2
-      sentence: Yes. Seek bosses who play to your strengths, hone them, and provide
-        great feedback.Think about whether they have successful careers.
+      sentence: Yes. Seek bosses who play to your strengths and help you develop them.
+        Think about whether they have successful careers themselves.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -46427,7 +46420,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for pitch tips
-        option: "I\u2019ve entered the pitch competition here. Do you have any advice
+        option: "I\u2019m entering the pitch competition here. Do you have any advice
           for me?"
         OptionClickedAction:
           m_PersistentCalls:
@@ -46461,8 +46454,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask about career development
-        option: Do you have any advice for developing my career, now that I have an
-          idea for a business?
+        option: Do you have any advice for developing a successful career in your
+          field?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -46484,13 +46477,13 @@ MonoBehaviour:
     - eventName: Answer - Mentorship
       ID: 1
       sentence: "I\u2019d love to hear your pitch and give you some immediate feedback.
-        But I should let you know,  I only mentor corporate clients right now."
+        But I only mentor corporate clients right now."
       hasOptions: 0
       playerTalking: 0
       options:
       - actionName: Deliver pitch and ask about mentorship
         option: "I heard about your success as an entrepreneur. I was wondering if
-          you\u2019d hear my idea for a business to see what you think of it? I\u2019m
+          you\u2019d listen to my idea for a business to see what you think? I\u2019m
           looking for a mentor."
         OptionClickedAction:
           m_PersistentCalls:
@@ -47227,6 +47220,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerMonitor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47296,16 +47299,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5871037
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerMonitor (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
@@ -47809,6 +47802,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerMonitor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47878,16 +47881,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5871037
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerMonitor (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
@@ -48396,6 +48389,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 832862370}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 44f923b66ea3c9e47842ca782bb69be5,
+        type: 3}
+      propertyPath: m_Name
+      value: paper01 (5)
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 44f923b66ea3c9e47842ca782bb69be5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48465,11 +48463,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.44166562
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 44f923b66ea3c9e47842ca782bb69be5,
-        type: 3}
-      propertyPath: m_Name
-      value: paper01 (5)
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 44f923b66ea3c9e47842ca782bb69be5,
         type: 3}
@@ -48692,9 +48685,9 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Answer - No I'm not interested in business.
       ID: 2
-      sentence: "You don\u2019t have to do the business part: You can hire a CEO to
-        do that. You can be the Chief Science Officer and run the lab. You could learn
-        about your options at the networking event."
+      sentence: "You can hire a CEO to run the business. You can be the Chief Science
+        Officer and run the lab. You could learn your options at the networking event
+        that\u2019s starting soon."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -48780,9 +48773,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - A little interest but no confidence
       ID: 2
-      sentence: "You\u2019d be surprised. For example, there\u2019s lots of support
-        at the university technology transfer office. You would get encouragement
-        at the networking event, too."
+      sentence: "You\u2019d be surprised. You could get help at the technology transfer
+        office or talk with people at the networking event that\u2019s starting soon."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -48868,9 +48860,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Possible interest and curiosity
       ID: 3
-      sentence: If you are interested in finding out more, you could talk to people
-        at the networking event that's starting soon. You might find a mentor to guide
-        you.
+      sentence: You could ask people at the networking event that's starting soon.
+        You might find a mentor who could help you.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -48956,13 +48947,12 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Interested in the money and impact
       ID: 3
-      sentence: 'That sounds good! You could find out more at the networking event
-        that is starting soon. Be sure to print up some business cards and make lots
-        of contacts. '
+      sentence: I agree! If you go to the networking event that's starting soon, be
+        sure share your idea, take some business cards, and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:
-      - actionName: No. Science is for its own sake
+      - actionName: No. I'm not interested in business
         option: 'Not me. I have no interest in dealing with business stuff. I enjoy
           the lab too much. '
         OptionClickedAction:
@@ -52080,6 +52070,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 832862370}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 44f923b66ea3c9e47842ca782bb69be5,
+        type: 3}
+      propertyPath: m_Name
+      value: paper01 (9)
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 44f923b66ea3c9e47842ca782bb69be5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -52149,11 +52144,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.44166562
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 44f923b66ea3c9e47842ca782bb69be5,
-        type: 3}
-      propertyPath: m_Name
-      value: paper01 (9)
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 44f923b66ea3c9e47842ca782bb69be5,
         type: 3}
@@ -54220,6 +54210,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 832862370}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
+        type: 3}
+      propertyPath: m_Name
+      value: pen01 (6)
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54289,11 +54284,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.1751972
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
-        type: 3}
-      propertyPath: m_Name
-      value: pen01 (6)
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
         type: 3}
@@ -55887,6 +55877,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 832862370}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
+        type: 3}
+      propertyPath: m_Name
+      value: pen01 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -55956,11 +55951,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.1751972
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
-        type: 3}
-      propertyPath: m_Name
-      value: pen01 (3)
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 09378a0129f334f40bf7d7c52bfc6cfd,
         type: 3}
@@ -63750,6 +63740,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135924126}
     m_Modifications:
+    - target: {fileID: 5965131025711925085, guid: 98227eaffa294ac469bdf112a8137dd5,
+        type: 3}
+      propertyPath: m_Name
+      value: Dr.Belmont
+      objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925073, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -64189,9 +64184,9 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[2].sentence
-      value: "You don\u2019t have to do the business part: You can hire a CEO to do
-        that. You can be the Chief Science Officer and run the lab. You could learn
-        about your options at the networking event."
+      value: "You can hire a CEO to run the business. You can be the Chief Science
+        Officer and run the lab. You could learn your options at the networking event
+        that\u2019s starting soon."
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64201,7 +64196,7 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[2].options.Array.data[0].actionName
-      value: No. Science is for its own sake
+      value: No. I'm not interested in business
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64602,14 +64597,13 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[3].sentence
-      value: "You\u2019d be surprised. For example, there\u2019s lots of support at
-        the university technology transfer office. You would get encouragement at
-        the networking event, too."
+      value: "You\u2019d be surprised. You could get help at the technology transfer
+        office or talk with people at the networking event that\u2019s starting soon."
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[3].options.Array.data[0].actionName
-      value: No. Science is for its own sake
+      value: No. I'm not interested in busines
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64725,9 +64719,8 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[4].sentence
-      value: If you are interested in finding out more, you could talk to people at
-        the networking event that's starting soon. You might find a mentor to guide
-        you.
+      value: You could ask people at the networking event that's starting soon. You
+        might find a mentor who could help you.
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -64848,9 +64841,8 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[5].sentence
-      value: 'That sounds good! You could find out more at the networking event that
-        is starting soon. Be sure to print up some business cards and make lots of
-        contacts. '
+      value: I agree! If you go to the networking event that's starting soon, be sure
+        share your idea, take some business cards, and make lots of contacts.
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -65695,11 +65687,6 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogue.interactions.Array.data[5].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 5965131025711925085, guid: 98227eaffa294ac469bdf112a8137dd5,
-        type: 3}
-      propertyPath: m_Name
-      value: Dr.Belmont
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925078, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -67289,9 +67276,9 @@ MonoBehaviour:
           m_Calls: []
     - eventName: "Answer - No. I\u2019m not interested in business"
       ID: 2
-      sentence: "You don\u2019t have to do the business part: You can hire a CEO to
-        do that. You can be the Chief Science Officer and run the lab. You could learn
-        about your options at the networking event."
+      sentence: "You can hire a CEO to run the business. You can be the Chief Science
+        Officer and run the lab. You could learn your options at the networking event
+        that\u2019s starting soon."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -67377,9 +67364,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - A little interest but no confidence
       ID: 2
-      sentence: "You\u2019d be surprised. For example, there\u2019s lots of support
-        at the university technology transfer office. You would get encouragement
-        at the networking event, too."
+      sentence: "You\u2019d be surprised. You could get help at the technology transfer
+        office or talk with people at the networking event that\u2019s starting soon."
       hasOptions: 0
       playerTalking: 1
       options:
@@ -67465,9 +67451,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, What Would it Take?
       ID: 3
-      sentence: If you are interested in finding out more, you could talk to people
-        at the networking event that's starting soon. You might find a mentor to guide
-        you.
+      sentence: You could ask people at the networking event that's starting soon.
+        You might find a mentor who could help you.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -67553,9 +67538,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - YES! MONEY!!
       ID: 3
-      sentence: 'That sounds good! You could find out more at the networking event
-        that is starting soon. Be sure to print up some business cards and make lots
-        of contacts. '
+      sentence: I agree! If you go to the networking event that's starting soon, be
+        sure share your idea, take some business cards, and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:
