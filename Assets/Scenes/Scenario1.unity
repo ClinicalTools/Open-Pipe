@@ -6452,7 +6452,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207698871}
   m_LocalRotation: {x: 0, y: 0.9848078, z: -0, w: -0.17364809}
-  m_LocalPosition: {x: 0.449, y: -3.5125668, z: -11.795}
+  m_LocalPosition: {x: 0.464, y: -3.5125668, z: -11.753}
   m_LocalScale: {x: 0.46318042, y: 0.4631802, z: 0.46318042}
   m_Children:
   - {fileID: 235065868}
@@ -6484,8 +6484,8 @@ MonoBehaviour:
       playerTalking: 0
       options:
       - actionName: Ask if he is a graduate student
-        option: Hi I'm a grad student and this is my first event. Are you a grad student,
-          too, or working industry?
+        option: Hi. I'm a grad student and this is my first event. Are you a grad
+          student, too, or working in industry?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -6529,10 +6529,15 @@ MonoBehaviour:
                 m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
                 m_IntArgument: 3
                 m_FloatArgument: 0
-                m_StringArgument: 3
+                m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
-      triggerEventAfterTalk: 1
+      - actionName: 
+        option: 
+        OptionClickedAction:
+          m_PersistentCalls:
+            m_Calls: []
+      triggerEventAfterTalk: 0
       afterTalkEvent:
         m_PersistentCalls:
           m_Calls: []
@@ -6543,63 +6548,9 @@ MonoBehaviour:
       hasOptions: 0
       playerTalking: 0
       options:
-      - actionName: Ask about his research
-        option: What is your research about?
-        OptionClickedAction:
-          m_PersistentCalls:
-            m_Calls:
-            - m_Target: {fileID: 207698873}
-              m_MethodName: NPCTalk
-              m_Mode: 3
-              m_Arguments:
-                m_ObjectArgument: {fileID: 0}
-                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-                m_IntArgument: 2
-                m_FloatArgument: 0
-                m_StringArgument: 
-                m_BoolArgument: 0
-              m_CallState: 2
-      - actionName: Ask about his mentor
-        option: Did you have a mentor help you as you transferred from school to industry?
-        OptionClickedAction:
-          m_PersistentCalls:
-            m_Calls:
-            - m_Target: {fileID: 207698873}
-              m_MethodName: NPCTalk
-              m_Mode: 3
-              m_Arguments:
-                m_ObjectArgument: {fileID: 0}
-                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-                m_IntArgument: 3
-                m_FloatArgument: 0
-                m_StringArgument: 
-                m_BoolArgument: 0
-              m_CallState: 2
-      triggerEventAfterTalk: 1
-      afterTalkEvent:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 207698873}
-            m_MethodName: NPCTalk
-            m_Mode: 3
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 2
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-    - eventName: Answer
-      ID: 2
-      sentence: "We\u2019re looking at the microbiome and mapping the relationship
-        to body mass.  "
-      hasOptions: 1
-      playerTalking: 0
-      options:
       - actionName: Ask if he is a graduate student
-        option: Hi I'm a grad student and this is my first event. Are you a grad student,
-          too, or working industry?
+        option: Hi. I'm a grad student and this is my first event. Are you a grad
+          student, too, or working in industry?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -6614,8 +6565,46 @@ MonoBehaviour:
                 m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
-      - actionName: Ask about his mentor
-        option: Did you have a mentor help you as you transferred from school to industry?
+      - actionName: 
+        option: 
+        OptionClickedAction:
+          m_PersistentCalls:
+            m_Calls: []
+      - actionName: 
+        option: 
+        OptionClickedAction:
+          m_PersistentCalls:
+            m_Calls: []
+      - actionName: 
+        option: 
+        OptionClickedAction:
+          m_PersistentCalls:
+            m_Calls: []
+      triggerEventAfterTalk: 1
+      afterTalkEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 207698873}
+            m_MethodName: SetlocalizedDialougeID
+            m_Mode: 3
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - eventName: Answer - His research
+      ID: 2
+      sentence: "We\u2019re looking at the microbiome and mapping the relationship
+        to body mass.  "
+      hasOptions: 0
+      playerTalking: 0
+      options:
+      - actionName: Ask if he is a grad student
+        option: Hi. I'm a grad student and this is my first event. Are you a grad
+          student, too, or working in industry?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -6625,22 +6614,37 @@ MonoBehaviour:
               m_Arguments:
                 m_ObjectArgument: {fileID: 0}
                 m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-                m_IntArgument: 3
+                m_IntArgument: 1
                 m_FloatArgument: 0
                 m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
+      - actionName: 
+        option: 
+        OptionClickedAction:
+          m_PersistentCalls:
+            m_Calls: []
+      - actionName: 
+        option: 
+        OptionClickedAction:
+          m_PersistentCalls:
+            m_Calls: []
+      - actionName: 
+        option: 
+        OptionClickedAction:
+          m_PersistentCalls:
+            m_Calls: []
       triggerEventAfterTalk: 1
       afterTalkEvent:
         m_PersistentCalls:
           m_Calls:
           - m_Target: {fileID: 207698873}
-            m_MethodName: NPCTalk
+            m_MethodName: SetlocalizedDialougeID
             m_Mode: 3
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 2
+              m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: 
               m_BoolArgument: 0
@@ -6649,7 +6653,7 @@ MonoBehaviour:
       ID: 3
       sentence: "Yes, Dr. Smith. Across the room in the white coat. He was great but
         he\u2019s very busy. "
-      hasOptions: 1
+      hasOptions: 0
       playerTalking: 0
       options:
       - actionName: Ask if he is a graduate student
@@ -6669,22 +6673,21 @@ MonoBehaviour:
                 m_StringArgument: 
                 m_BoolArgument: 0
               m_CallState: 2
-      - actionName: Ask about his research
-        option: What is your research about?
+      - actionName: 
+        option: 
         OptionClickedAction:
           m_PersistentCalls:
-            m_Calls:
-            - m_Target: {fileID: 207698873}
-              m_MethodName: NPCTalk
-              m_Mode: 3
-              m_Arguments:
-                m_ObjectArgument: {fileID: 0}
-                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-                m_IntArgument: 3
-                m_FloatArgument: 0
-                m_StringArgument: 
-                m_BoolArgument: 0
-              m_CallState: 2
+            m_Calls: []
+      - actionName: 
+        option: 
+        OptionClickedAction:
+          m_PersistentCalls:
+            m_Calls: []
+      - actionName: 
+        option: 
+        OptionClickedAction:
+          m_PersistentCalls:
+            m_Calls: []
       triggerEventAfterTalk: 1
       afterTalkEvent:
         m_PersistentCalls:
@@ -33114,7 +33117,7 @@ MonoBehaviour:
       hasOptions: 0
       playerTalking: 0
       options:
-      - actionName: Ask for mentor advise
+      - actionName: Ask who's a good mentor
         option: Do you know anyone here who would make a good mentor to help me with
           a business startup?
         OptionClickedAction:
