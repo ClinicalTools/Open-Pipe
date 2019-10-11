@@ -6597,8 +6597,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - His research
       ID: 2
-      sentence: "We\u2019re looking at the microbiome and mapping the relationship
-        to body mass.  "
+      sentence: "We\u2019re mapping the relationship of the microbiome to body mass.
+        \ "
       hasOptions: 0
       playerTalking: 0
       options:
