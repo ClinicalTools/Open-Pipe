@@ -12454,11 +12454,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 44495b29cb5fe284a80c850d8ae8f91d,
-        type: 3}
-      propertyPath: m_Name
-      value: david_wong_standing_idle
-      objectReference: {fileID: 0}
     - target: {fileID: -6165827872063535620, guid: 44495b29cb5fe284a80c850d8ae8f91d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12524,6 +12519,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d3168bc5db237a647a7d58a6d5a19b56, type: 2}
+    - target: {fileID: -927199367670048503, guid: 44495b29cb5fe284a80c850d8ae8f91d,
+        type: 3}
+      propertyPath: m_Name
+      value: david_wong_standing_idle
+      objectReference: {fileID: 0}
     - target: {fileID: 175205821757081728, guid: 44495b29cb5fe284a80c850d8ae8f91d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12905,6 +12905,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 913221494}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12974,16 +12984,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.1182933
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -13214,6 +13214,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5133913965574556032, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010309020798225115, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6173053900511452925, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6615017778036176718, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3eadaa0f44cae924b921a191350072bd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13283,26 +13303,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.95355
-      objectReference: {fileID: 0}
-    - target: {fileID: 5133913965574556032, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9010309020798225115, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -6173053900511452925, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -6615017778036176718, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -9147868553947026619, guid: 3eadaa0f44cae924b921a191350072bd,
         type: 3}
@@ -22249,6 +22249,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Interactable
       objectReference: {fileID: 0}
+    - target: {fileID: 547570625182169757, guid: 06f451f9d32c43f4e9a3419681f52208,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 06f451f9d32c43f4e9a3419681f52208,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22354,11 +22359,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9da9cfff641ee4846bd069133676a509, type: 2}
-    - target: {fileID: 547570625182169757, guid: 06f451f9d32c43f4e9a3419681f52208,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06f451f9d32c43f4e9a3419681f52208, type: 3}
 --- !u!4 &702470891 stripped
@@ -23510,19 +23510,19 @@ Transform:
   - {fileID: 757626369}
   - {fileID: 118491367}
   - {fileID: 1882089217}
+  - {fileID: 1910419184}
   - {fileID: 540714940}
   - {fileID: 1140949095}
+  - {fileID: 914724517}
   - {fileID: 1070759463}
   - {fileID: 2113690717}
   - {fileID: 2084350772}
   - {fileID: 1741800945}
   - {fileID: 1458699566}
   - {fileID: 2007032435}
-  - {fileID: 1910419184}
-  - {fileID: 914724517}
+  - {fileID: 1516029277}
   - {fileID: 1320505710}
   - {fileID: 288948426}
-  - {fileID: 1516029277}
   - {fileID: 570074028}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -29615,6 +29615,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 913221494}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29684,16 +29694,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.1182933
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -29845,7 +29845,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 727128895}
-  m_RootOrder: 51
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!220 &914724518
 LightProbeGroup:
@@ -30514,6 +30514,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 913221494}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30583,16 +30593,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.1182933
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -34156,6 +34156,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Female-Generic-2-Lab
       objectReference: {fileID: 0}
+    - target: {fileID: 5133913965574556032, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010309020798225115, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6173053900511452925, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6615017778036176718, guid: 3eadaa0f44cae924b921a191350072bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3eadaa0f44cae924b921a191350072bd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34225,26 +34245,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.95355
-      objectReference: {fileID: 0}
-    - target: {fileID: 5133913965574556032, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9010309020798225115, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -6173053900511452925, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -6615017778036176718, guid: 3eadaa0f44cae924b921a191350072bd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -9147868553947026619, guid: 3eadaa0f44cae924b921a191350072bd,
         type: 3}
@@ -50993,7 +50993,7 @@ Transform:
   m_LocalScale: {x: 12.605361, y: 0.067765, z: 22.94105}
   m_Children: []
   m_Father: {fileID: 727128895}
-  m_RootOrder: 54
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1516029278
 BoxCollider:
@@ -51707,6 +51707,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 913221494}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51776,16 +51786,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.1182933
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -57310,6 +57310,51 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 45486583}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1653242663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653242662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79691164f96421c4b947df23f1c572df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectType: 0
+--- !u!114 &1653242664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653242662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7673caaad226dca45b8a0f2c2ce60c49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: f760e5ecd816a3b45bfb881ccc94fb5a, type: 3}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnConditional:
+    m_PersistentCalls:
+      m_Calls: []
+  interactionCollider: {fileID: 0}
+  playerTalk: 'You will be able to look up information on the computer at this desk
+    in the final version. '
 --- !u!65 &1653242665
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57329,6 +57374,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 45486583}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1653242667
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653242662}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1653460834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66733,7 +66797,7 @@ Transform:
   - {fileID: 1233702923}
   - {fileID: 1152954418}
   m_Father: {fileID: 727128895}
-  m_RootOrder: 50
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1916906597
 GameObject:
@@ -79360,6 +79424,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135924126}
     m_Modifications:
+    - target: {fileID: 5965131025711925085, guid: 98227eaffa294ac469bdf112a8137dd5,
+        type: 3}
+      propertyPath: m_Name
+      value: Dr.Belmont
+      objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925073, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -81308,11 +81377,6 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogue.interactions.Array.data[5].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 5965131025711925085, guid: 98227eaffa294ac469bdf112a8137dd5,
-        type: 3}
-      propertyPath: m_Name
-      value: Dr.Belmont
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925078, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
