@@ -22,7 +22,7 @@ public class FaceCamera : MonoBehaviour
                 transform.LookAt(targetPos + offset);
             }
             else {
-                transform.LookAt(originalPos);
+                transform.LookAt(originalPos, Vector3.up);
             }
         }
     }
