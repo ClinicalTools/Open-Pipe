@@ -35431,7 +35431,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for pitch tip
-        option: Do you have any advice for me for the pitch competition?
+        option: Do you have any advice for me for the entrepreneur pitch competition?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -39763,8 +39763,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for business tip
-        option: "I\u2019m thinking of starting a business. With your experience, would
-          you recommend it?"
+        option: "I\u2019m thinking of starting a business based on my research. With
+          your experience, would you recommend it?"
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -44213,8 +44213,8 @@ MonoBehaviour:
       hasOptions: 1
       playerTalking: 0
       options:
-      - actionName: Hello.
-        option: Hello.
+      - actionName: Say hello and ask her field of research
+        option: Hello, what field of research are you in?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -44250,14 +44250,15 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Give NPC Pitch
       ID: 1
-      sentence: "Hi, I\u2019m a molecular agriculture post doc at VonRand U and came
-        to get some feedback on an idea I developed for changing almonds genetically
-        to use less water to grow. "
+      sentence: "Hi, I\u2019m in molecular agriculture and I want to start a business
+        using a technique I developed for changing almonds genetically to use less
+        water to grow."
       hasOptions: 1
       playerTalking: 0
       options:
       - actionName: Continue
-        option: "That\x19s great! Have you ever pitched a business idea in a competition?"
+        option: "That\u2019s great! Have you ever pitched your idea for a business
+          in a competition for entrepreneurs? "
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -48312,8 +48313,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for tips on pitching a business
-        option: "I\u2019m thinking of entering the pitch competition here. What do
-          you think? Is that worthwhile?"
+        option: "I\u2019m thinking of presenting my business idea at the pitch competition
+          here. Do you think that is worthwhile?"
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -53327,8 +53328,8 @@ MonoBehaviour:
       playerTalking: 0
       options:
       - actionName: Ask for a pitch tip
-        option: 'I was wondering if you have any advice for doing well in the pitch
-          competition? '
+        option: 'I was wondering if you have any advice for doing well in the entrepreneur
+          pitch competition? '
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -53374,16 +53375,16 @@ MonoBehaviour:
       afterTalkEvent:
         m_PersistentCalls:
           m_Calls: []
-    - eventName: Business TIP
+    - eventName: Pitch TIP
       ID: 1
       sentence: 'Yes. You need to define your target market. Who would benefit from
         using your product? '
       hasOptions: 0
       playerTalking: 0
       options:
-      - actionName: Ask for business advice
-        option: I have an idea to start a business. Do you have any advice for me
-          as I get started?
+      - actionName: Ask for a career tip
+        option: I want to develop my career before launching a business. Do you have
+          any advice?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -53446,9 +53447,9 @@ MonoBehaviour:
       hasOptions: 0
       playerTalking: 0
       options:
-      - actionName: Ask for business advice
-        option: I have an idea to start a business. Do you have any advice for me
-          as I get started?
+      - actionName: Ask for a pitch tip
+        option: I was wondering if you have any advice for doing well in the entrepreneur
+          pitch competition?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -60757,14 +60758,14 @@ MonoBehaviour:
   dialogue:
     name: Tucker Johnson
     interactions:
-    - eventName: Ask for pitch tip
+    - eventName: Ask for TIPS
       ID: 0
       sentence: 
       hasOptions: 1
       playerTalking: 1
       options:
       - actionName: Ask for a pitch tip
-        option: 'Do you have any advice for me for the pitch competition? '
+        option: 'Do you have any advice for me for the entrepreneur pitch competition? '
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -60780,8 +60781,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for a business tip
-        option: I have an idea to start a business. Do you have any advice for developing
-          it?
+        option: I have an idea to start a business based on my research. Do you have
+          any advice for developing it?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -60810,16 +60811,16 @@ MonoBehaviour:
       afterTalkEvent:
         m_PersistentCalls:
           m_Calls: []
-    - eventName: Business Tip
+    - eventName: Ask for Pitch Tip
       ID: 1
       sentence: 'Yes. Make sure you describe your idea and its unique value clearly
         in language everyone understands. '
       hasOptions: 0
       playerTalking: 0
       options:
-      - actionName: Ask for business advice
-        option: I have an idea to start a business. Do you have any advice for developing
-          it?
+      - actionName: Ask for a business tip
+        option: I have an idea to start a business based on my research. Do you have
+          any advice for developing it?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -60875,7 +60876,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-    - eventName: Career tip
+    - eventName: Business tip
       ID: 2
       sentence: Sure. Get a Small Business Innovative Research (SBIR) grant. Then,
         you can apply for the NIH program ICorp to develop your business plan.
@@ -60883,8 +60884,8 @@ MonoBehaviour:
       playerTalking: 0
       options:
       - actionName: Ask for business advice
-        option: I have an idea to start a business. Do you have any advice for developing
-          it?
+        option: I have an idea to start a business based on my research. Do you have
+          any advice for developing it?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:

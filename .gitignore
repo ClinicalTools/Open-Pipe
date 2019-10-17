@@ -35,3 +35,4 @@ sysinfo.txt
 *.apk
 *.unitypackage
 *.spp
+Assets/Scenes/Scenario1/LightingData.asset.meta
