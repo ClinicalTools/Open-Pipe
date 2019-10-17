@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Doctor-Male-1
+  m_Name: GraceOpaque
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_ShaderKeywords: _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 4
@@ -29,7 +29,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: 2a1028964dca6b447b3b5bf928fae306, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5dd29246fa003d149996bb83c6d9396b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
@@ -69,15 +69,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2a1028964dca6b447b3b5bf928fae306, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5dd29246fa003d149996bb83c6d9396b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
-        m_Texture: {fileID: 2800000, guid: 68125a5e4a844964eb8509fbe933a1d3, type: 3}
+        m_Texture: {fileID: 2800000, guid: e5cad9ad072eaac429d05c633f636857, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 298bed849f9b9344594c9dd1c2971eab, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9bab5819d26074e4c902b58a47dcfa3b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMapOS:
