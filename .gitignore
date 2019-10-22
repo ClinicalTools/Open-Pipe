@@ -36,3 +36,4 @@ sysinfo.txt
 *.unitypackage
 *.spp
 Assets/Scenes/Scenario1/LightingData.asset.meta
+Assets/Scenes/Scenario1/LightingData.asset
