@@ -66,6 +66,19 @@ public class MenuHandler : MonoBehaviour
             errorCheck.SetActive(true);
          }
     }
+    public void OpenCharacterScreen() {
+
+        characterScreen.SetActive(true);
+        questionnaireScreen.SetActive(false);
+
+    }
+
+    public void OpenQuestionnaire() {
+
+        characterScreen.SetActive(false);
+        questionnaireScreen.SetActive(true);
+    }
+
     public void NextToQuestionnaire() {
 
         CheckNameAndProfile();
