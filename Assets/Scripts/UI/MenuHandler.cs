@@ -31,6 +31,31 @@ public class MenuHandler : MonoBehaviour
     [SerializeField] bool hasCheckbox;
 
 
+    void Awake() {
+        ResetMainMenu();
+        CheckFOSAndSkills();
+        CheckNameAndProfile();
+    }
+
+    void ResetMainMenu() {
+        characterScreen.SetActive(false);
+        questionnaireScreen.SetActive(false);
+    }
+
+    void BeginButton() {
+        
+        CheckFOSAndSkills();
+        CheckNameAndProfile();
+
+        if (hasFOS && hasCheckbox && hasProfile) {
+            SceneManager.LoadScene(1);
+        } else if (!hasProfile) {
+            OpenCharacterScreen();
+        } else {
+            OpenQuestionnaire();
+        }
+    }
+
     public void CreateButtonClicked() {
         CheckFOSAndSkills();
 

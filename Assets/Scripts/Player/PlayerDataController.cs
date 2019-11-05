@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class PlayerDataController : MonoBehaviour
 {
     public static PlayerDataController instance = null;
-    public string name;
+    public string playerName;
     public Sprite playerImage;
 
 
@@ -29,7 +29,7 @@ public class PlayerDataController : MonoBehaviour
     }
 
     public void SetPlayerName() {
-        name = PlayerImageSetter.instance.nameField.text;
+        playerName = PlayerImageSetter.instance.nameField.text;
     }
 
 }
