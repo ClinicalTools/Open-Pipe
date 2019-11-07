@@ -61,12 +61,12 @@ public class Scenario1 : MonoBehaviour
     /// HAD TO ADD THIS BECAUSE UNITY VERSION BEING USED IS NOT STABLE AND GETS RID OF THESE VALUES THROUGH THE INSPECTOR FROM HAVING INTERNAL ISSUES
     /// </summary>
     public void AddObjectTips() {
-        objectTips.Add("Hello! I'm glad you're in the lab. Don’t forget the networking event for meeting biotech entrepreneurs is today.");
-        objectTips.Add("We'd better get our lab work done if we want to make it on time to the networking event. ");
-        objectTips.Add("Hello! The solution in the flasks you asked me to watch for you just turned green.");
-        objectTips.Add("I think the centrifuge has finished. When you’re done with it, let me know.");
-        objectTips.Add("I saw the petri dish you were looking for in the incubator.");
-        objectTips.Add("The reagent you ordered came in. I put it in the refrigerator.");
+        objectTips.Add("Hello! I'm glad you're in the lab. Don’t forget the networking event to meet biotech entrepreneurs is today.");
+        objectTips.Add("Let's get our lab work done fast and then go to the biotech networking event.");
+        objectTips.Add("Could you do me a favor and check if the centrifuge on the counter is empty?");
+        objectTips.Add("The solution in all the flasks on the counter just turned green. Check it out!");
+        objectTips.Add("I don't know who had some trays in the incubator, but I moved them a little to make room.");
+        objectTips.Add("The reagent that was back-ordered came in. I put it in the refrigerator.");
 
     }
 
@@ -175,7 +175,7 @@ public class Scenario1 : MonoBehaviour
         if (PlayerManager.instance.pitchTipEarned <= SkillsManager.instance.pitchTips)
         {
             PlayerManager.instance.pitchTipEarned += 1;
-            NotificationManager.instance.TipNotify("<b>Pitch Tip Recieved : </b>" + PlayerManager.instance.pitchTipEarned + "/" + SkillsManager.instance.pitchTips);
+            NotificationManager.instance.TipNotify("<b>Pitch Tip Received : </b>" + PlayerManager.instance.pitchTipEarned + "/" + SkillsManager.instance.pitchTips);
 
             if (PlayerManager.instance.pitchTipEarned >= SkillsManager.instance.pitchTips)
             {
