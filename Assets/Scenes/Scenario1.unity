@@ -8961,6 +8961,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerMonitor
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9030,16 +9040,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5871037
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerMonitor
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
@@ -11827,6 +11827,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11896,16 +11906,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 13.827945
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -24803,6 +24803,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24872,16 +24882,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 13.827945
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -26818,6 +26818,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26887,16 +26897,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 13.827945
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -45065,6 +45065,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45134,16 +45144,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 13.827945
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -46367,8 +46367,8 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Advisor TIP
       ID: 2
-      sentence: "Let\u2019s exchange cards and you can send me an email. We can schedule
-        a coffee and you can tell me more about your idea. "
+      sentence: "Yes, I would. Let\u2019s exchange cards and you can send me an email.
+        We can schedule a coffee and you can tell me more about your idea. "
       hasOptions: 0
       playerTalking: 0
       options:
@@ -47316,6 +47316,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerMonitor (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47385,16 +47395,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5871037
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerMonitor (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
@@ -52607,6 +52607,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerMonitor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -52676,16 +52686,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5871037
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerMonitor (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
@@ -53189,6 +53189,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727128895}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerMonitor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -53258,16 +53268,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5871037
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerMonitor (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
