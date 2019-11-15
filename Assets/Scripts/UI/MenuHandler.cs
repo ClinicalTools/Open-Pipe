@@ -15,6 +15,11 @@ public class MenuHandler : MonoBehaviour
     public InputField nameField;
     public GameObject userProfileManager;
 
+    public GameObject characterSaveButton;
+    public GameObject characterNextButton;
+    public GameObject characterExitButton;
+    public GameObject characterBackButton;
+
     [SerializeField] bool hasName;
     [SerializeField] bool hasProfile;
 
@@ -23,6 +28,12 @@ public class MenuHandler : MonoBehaviour
     [SerializeField] Dropdown fieldOfStudyDropdown;
     [SerializeField] Toggle[] checkboxes;
     [SerializeField] int checkboxAmount;
+
+    
+    public GameObject questionSaveButton;
+    public GameObject questionNextButton;
+    public GameObject questionExitButton;
+    public GameObject questionBackButton;
 
     public GameObject errorFOS;
     public GameObject errorCheck;
@@ -33,26 +44,42 @@ public class MenuHandler : MonoBehaviour
 
     void Awake() {
         ResetMainMenu();
-        CheckFOSAndSkills();
-        CheckNameAndProfile();
+        //CheckFOSAndSkills();
+        //CheckNameAndProfile();
     }
 
     void ResetMainMenu() {
         characterScreen.SetActive(false);
+        
+        characterBackButton.SetActive(false);
+        characterExitButton.SetActive(true);
+        characterNextButton.SetActive(false);
+        characterSaveButton.SetActive(true);
+
         questionnaireScreen.SetActive(false);
+        
+        questionBackButton.SetActive(false);
+        questionExitButton.SetActive(true);
+        questionNextButton.SetActive(false);
+        questionSaveButton.SetActive(true);
+
     }
 
-    void BeginButton() {
+    public void BeginButton() {
         
-        CheckFOSAndSkills();
-        CheckNameAndProfile();
+        //CheckFOSAndSkills();
+        //CheckNameAndProfile();
+        ResetMainMenu();
 
-        if (hasFOS && hasCheckbox && hasProfile) {
+        if (hasFOS && hasCheckbox && hasProfile && hasName) {
+            Debug.Log("FOS, Checkbox, Profile found");
             SceneManager.LoadScene(1);
-        } else if (!hasProfile) {
-            OpenCharacterScreen();
+        } else if (!hasProfile || !hasName) {
+            FirstCharacterScreen();
+            Debug.Log("No Profile found");
         } else {
-            OpenQuestionnaire();
+            FirstQuestionnaire();
+            Debug.Log("No Skills selected, Checkbox = " + hasCheckbox + ", FOS = " + hasFOS);
         }
     }
 
@@ -60,7 +87,11 @@ public class MenuHandler : MonoBehaviour
         CheckFOSAndSkills();
 
         if (hasFOS && hasCheckbox) {
-            SceneManager.LoadScene(1);
+            SentryNameAndProfile();
+            if (hasName && hasProfile)
+            {
+                SceneManager.LoadScene(1);
+            } else OpenCharacterScreen();
         }
     }
 
@@ -97,11 +128,26 @@ public class MenuHandler : MonoBehaviour
         questionnaireScreen.SetActive(false);
 
     }
-
+    public void FirstCharacterScreen() {
+        OpenCharacterScreen();
+        characterBackButton.SetActive(true);
+        characterExitButton.SetActive(false);
+        characterNextButton.SetActive(true);
+        characterSaveButton.SetActive(false);
+    }
     public void OpenQuestionnaire() {
 
         characterScreen.SetActive(false);
         questionnaireScreen.SetActive(true);
+    }
+    public void FirstQuestionnaire() {
+        
+        OpenQuestionnaire();
+
+        questionBackButton.SetActive(true);
+        questionExitButton.SetActive(false);
+        questionNextButton.SetActive(true);
+        questionSaveButton.SetActive(false);
     }
 
     public void NextToQuestionnaire() {
@@ -111,15 +157,38 @@ public class MenuHandler : MonoBehaviour
         //If both are true then you can continue, else you are staying until you do so.
 
         if(hasProfile && hasName) {
-            characterScreen.SetActive(false);
-            questionnaireScreen.SetActive(true);
+            FirstQuestionnaire();
         }
 
     }
-
+    public void ExitToMainScreen() {
+        characterScreen.SetActive(false);
+        questionnaireScreen.SetActive(false);
+    }
     public void BackToCharacterScreen() {
         characterScreen.SetActive(true);
         questionnaireScreen.SetActive(false);
+    }
+    bool SentryNameAndProfile() {
+        if (nameField.text == "")
+        {
+            hasName = false;
+        }
+        else
+        {
+            hasName = true;
+        }
+        
+        if (userProfileManager.GetComponent<ProfileSizer>().currentSelected == null)
+        {
+            hasProfile = false;
+        }
+        else
+        {
+            hasProfile = true;
+        }
+
+        return (hasName&&hasProfile);
     }
 
     void CheckNameAndProfile() {
