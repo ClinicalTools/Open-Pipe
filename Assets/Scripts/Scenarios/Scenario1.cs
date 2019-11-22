@@ -106,7 +106,7 @@ public class Scenario1 : MonoBehaviour
                 iObject.OnConditional.Invoke();
                 // CheckIfObjectsAndPeers();
                 ObjectivesManager.instance.CompletedObjective();
-                NotificationManager.instance.ObjectiveNotify("<b>Congratulations!</b>");
+                NotificationManager.instance.ObjectiveNotify("<b>Congratulations! Research Breakthrough!</b>");
                 NotificationManager.instance.QuickNotify("<b>You have a great idea based on your research! You could start a business with it!</b>");
             }
         }
