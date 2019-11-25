@@ -1134,9 +1134,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 0}
-  playerTalk: To start a successful business, find a problem that you are uniquely
-    qualified to solve because of your experience, education, passion, or access to
-    equipment, data, or people.
+  playerTalk: For a successful business, use what you are uniquely qualified to solve
+    because of experience, education, passion, or access to data or people.
 --- !u!95 &40635763
 Animator:
   serializedVersion: 3
@@ -3695,16 +3694,18 @@ MonoBehaviour:
   index: 0
   objectives:
   - objectiveID: Start Task
-    objective: 'Objective 1: To complete labwork, click on countertop lab equipment.
-      Learn 2 tips about innovation to get an innovative idea.  '
+    objective: 'Objective 1: Complete labwork tasks by clicking on countertop lab
+      equipment and reveal tips on innovation. Finish two tasks to get an innovative
+      idea.  '
   - objectiveID: Discuss With Peers
     objective: "Objective 1 \u2714 \nObjective 2: Discuss your innovative idea with
       a peer. "
   - objectiveID: Attend Networking Event
-    objective: "Objectives. 1 and 2 \u2714\nObjective. 3: Attend networking event,
-      find a mentor, learn 3 tips to pitch your idea."
+    objective: "Objectives. 1, 2 \u2714\nObj. 3: Talk to your advisor and the University
+      Technology Transfer Office about your idea."
   - objectiveID: Gather Final Tips
-    objective: 
+    objective: "Objectives. 1, 2, 3\u2714\nObjective 4: Attend networking event, find
+      a mentor, learn 3 tips to pitch your idea."
   - objectiveID: Find A Mentor
     objective: 
 --- !u!114 &110817258
@@ -4891,7 +4892,8 @@ MonoBehaviour:
     - eventName: Answer - No It's For Science
       ID: 2
       sentence: You can hire a CEO to run the business and just run the lab as the
-        Chief Science Officer. You could learn your options at the networking event.
+        Chief Science Officer. You could learn your options at the University Technology
+        Transfer Office.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -4978,7 +4980,7 @@ MonoBehaviour:
     - eventName: Answer - Maybe, No Confidence
       ID: 2
       sentence: "You\u2019d be surprised. You could get help at the technology transfer
-        office or talk with people at the networking event that\u2019s starting soon."
+        office or talk with people at the networking event next month."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -5064,8 +5066,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, What Would it Take?
       ID: 3
-      sentence: You could ask people at the networking event that's starting soon.
-        You might find a mentor who could help you.
+      sentence: You could ask people at the networking event  next month. You might
+        find a mentor who could help you.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -5151,8 +5153,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - YES! MONEY!!
       ID: 3
-      sentence: I agree! If you go to the networking event that's starting soon, be
-        sure share your idea, take some business cards, and make lots of contacts.
+      sentence: I agree! If you go to the networking event next month, be sure to
+        share your idea, take some business cards, and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -8692,8 +8694,8 @@ PrefabInstance:
     - target: {fileID: 4453650917846582036, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
       propertyPath: playerTalk
-      value: "Here\u2019s a tip on innovation: To start a business, find a significant
-        problem to solve, one that matters a great deal to enough people. "
+      value: 'Tip: Taking risks and having things not work out sometimes is part of
+        innovation. '
       objectReference: {fileID: 0}
     - target: {fileID: 4453650917846582036, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
@@ -8724,6 +8726,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: InteractedWithObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453650917679858193, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
+        type: 3}
+      propertyPath: playerTalk
+      value: 'Tip: Learn from failures. Use them to develop skills and understanding. '
       objectReference: {fileID: 0}
     - target: {fileID: 5687878103729885073, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
@@ -17806,8 +17813,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 0}
-  playerTalk: "Here\u2019s a tip on innovation: Learn from failures. Use them to develop
-    skills and understanding. "
+  playerTalk: 'Tip: Learn from failures. Use them to develop skills and understanding. '
 --- !u!65 &602856428
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20469,9 +20475,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 0}
-  playerTalk: Taking risks and having things not work out sometimes is part of innovation.
-    Learn from failures and develop skills and understanding that may contribute to
-    a solution.
+  playerTalk: 'Tip: Taking risks and having things not work out sometimes is part
+    of innovation. '
 --- !u!114 &702470895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34049,7 +34054,8 @@ MonoBehaviour:
     - eventName: Answer - No It's For Science
       ID: 2
       sentence: You can hire a CEO to run the business and just run the lab as the
-        Chief Science Officer. You could learn your options at the networking event.
+        Chief Science Officer. You could learn your options at the University Technology
+        Transfer Office.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -34136,7 +34142,7 @@ MonoBehaviour:
     - eventName: Answer - Maybe, No Confidence
       ID: 2
       sentence: "You\u2019d be surprised. You could get help at the technology transfer
-        office or talk with people at the networking event that\u2019s starting soon."
+        office or talk with people at the networking event next month."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -34222,8 +34228,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, What Would it Take?
       ID: 3
-      sentence: You could ask people at the networking event that's starting soon.
-        You might find a mentor who could help you.
+      sentence: You could ask people at the networking event  next month. You might
+        find a mentor who could help you.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -34309,8 +34315,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - YES! MONEY!!
       ID: 3
-      sentence: I agree! If you go to the networking event that's starting soon, be
-        sure share your idea, take some business cards, and make lots of contacts.
+      sentence: I agree! If you go to the networking event next month, be sure to
+        share your idea, take some business cards, and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -37687,8 +37693,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 1187212899}
-  playerTalk: 'Be sure to talk with others in and outside your field about a research
-    problem you are trying to solve to get new ideas and perspective. '
+  playerTalk: 'Tip: Be sure to talk with others in and outside your field about a
+    research problem you are trying to solve to get new ideas and perspective. '
 --- !u!114 &1187212898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45488,7 +45494,8 @@ MonoBehaviour:
     - eventName: Answer - No I'm not interested in business.
       ID: 2
       sentence: You can hire a CEO to run the business and just run the lab as the
-        Chief Science Officer. You could learn your options at the networking event.
+        Chief Science Officer. You could learn your options at the University Technology
+        Transfer Office.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -45575,7 +45582,7 @@ MonoBehaviour:
     - eventName: Answer - A little interest but no confidence
       ID: 2
       sentence: "You\u2019d be surprised. You could get help at the technology transfer
-        office or talk with people at the networking event that\u2019s starting soon."
+        office or talk with people at the networking event next month."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -45661,8 +45668,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Possible interest and curiosity
       ID: 3
-      sentence: You could ask people at the networking event that's starting soon.
-        You might find a mentor who could help you.
+      sentence: You could ask people at the networking event  next month. You might
+        find a mentor who could help you.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -45748,8 +45755,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Interested in the money and impact
       ID: 3
-      sentence: I agree! If you go to the networking event that's starting soon, be
-        sure share your idea, take some business cards, and make lots of contacts.
+      sentence: I agree! If you go to the networking event next month, be sure to
+        share your idea, take some business cards, and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -46314,7 +46321,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a492c50bcd4620d4bbcd6cd197932f02, type: 3}
-    m_FontSize: 65
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 6
@@ -46325,9 +46332,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Networking
+  m_Text: 'Technology Transfer
 
-    Event'
+    Office'
 --- !u!222 &1472667814
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47405,9 +47412,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactionCollider: {fileID: 0}
-  playerTalk: "Here\u2019s a tip on innovation: To come up with an idea that might
-    lead to a successful business, solve a problem that matters a great deal to enough
-    people. "
+  playerTalk: 'Tip: To come up with a business idea that might lead to a successful
+    business, solve a problem that matters a lot to enough people. '
 --- !u!114 &1491532474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59855,7 +59861,8 @@ MonoBehaviour:
     - eventName: Answer - No I'm not interested in business.
       ID: 2
       sentence: You can hire a CEO to run the business and just run the lab as the
-        Chief Science Officer. You could learn your options at the networking event.
+        Chief Science Officer. You could learn your options at the University Technology
+        Transfer Office.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -59942,7 +59949,7 @@ MonoBehaviour:
     - eventName: Answer - A little interest but no confidence
       ID: 2
       sentence: "You\u2019d be surprised. You could get help at the technology transfer
-        office or talk with people at the networking event that\u2019s starting soon."
+        office or talk with people at the networking event next month."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -60028,8 +60035,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Possible interest and curiosity
       ID: 3
-      sentence: You could ask people at the networking event that's starting soon.
-        You might find a mentor who could help you.
+      sentence: You could ask people at the networking event  next month. You might
+        find a mentor who could help you.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -60115,8 +60122,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Interested in the money and impact
       ID: 3
-      sentence: I agree! If you go to the networking event that's starting soon, be
-        sure share your idea, take some business cards, and make lots of contacts.
+      sentence: I agree! If you go to the networking event next month, be sure to
+        share your idea, take some business cards, and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -77068,7 +77075,8 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogue.interactions.Array.data[2].sentence
       value: You can hire a CEO to run the business and just run the lab as the Chief
-        Science Officer. You could learn your options at the networking event.
+        Science Officer. You could learn your options at the University Technology
+        Transfer Office.
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -77480,7 +77488,7 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogue.interactions.Array.data[3].sentence
       value: "You\u2019d be surprised. You could get help at the technology transfer
-        office or talk with people at the networking event that\u2019s starting soon."
+        office or talk with people at the networking event next month."
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -77601,8 +77609,8 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[4].sentence
-      value: You could ask people at the networking event that's starting soon. You
-        might find a mentor who could help you.
+      value: You could ask people at the networking event next month. You might find
+        a mentor who could help you.
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -77723,8 +77731,8 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[5].sentence
-      value: I agree! If you go to the networking event that's starting soon, be sure
-        share your idea, take some business cards, and make lots of contacts.
+      value: I agree! If you go to the networking event  next month, be sure to share
+        your idea, take some business cards, and make lots of contacts.
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -80179,7 +80187,8 @@ MonoBehaviour:
     - eventName: "Answer - No. I\u2019m not interested in business"
       ID: 2
       sentence: You can hire a CEO to run the business and just run the lab as the
-        Chief Science Officer. You could learn your options at the networking event.
+        Chief Science Officer. You could learn your options at the University Technology
+        Transfer Office.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -80266,7 +80275,7 @@ MonoBehaviour:
     - eventName: Answer - A little interest but no confidence
       ID: 2
       sentence: "You\u2019d be surprised. You could get help at the technology transfer
-        office or talk with people at the networking event that\u2019s starting soon."
+        office or talk with people at the networking even next month."
       hasOptions: 0
       playerTalking: 1
       options:
@@ -80352,8 +80361,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, What Would it Take?
       ID: 3
-      sentence: You could ask people at the networking event that's starting soon.
-        You might find a mentor who could help you.
+      sentence: You could ask people at the networking event  next month. You might
+        find a mentor who could help you.
       hasOptions: 0
       playerTalking: 0
       options:
@@ -80439,8 +80448,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - YES! MONEY!!
       ID: 3
-      sentence: I agree! If you go to the networking event that's starting soon, be
-        sure share your idea, take some business cards, and make lots of contacts.
+      sentence: I agree! If you go to the networking event next month, be sure to
+        share your idea, take some business cards, and make lots of contacts.
       hasOptions: 0
       playerTalking: 0
       options:

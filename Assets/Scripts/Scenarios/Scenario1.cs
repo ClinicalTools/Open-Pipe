@@ -61,10 +61,10 @@ public class Scenario1 : MonoBehaviour
     /// HAD TO ADD THIS BECAUSE UNITY VERSION BEING USED IS NOT STABLE AND GETS RID OF THESE VALUES THROUGH THE INSPECTOR FROM HAVING INTERNAL ISSUES
     /// </summary>
     public void AddObjectTips() {
-        objectTips.Add("Hello! I'm glad you're in the lab. Don’t forget the networking event to meet biotech entrepreneurs is today.");
-        objectTips.Add("Let's get our lab work done fast and then go to the biotech networking event.");
-        objectTips.Add("Could you do me a favor and check if the centrifuge on the counter is empty?");
-        objectTips.Add("The solution in all the flasks on the counter just turned green. Check it out!");
+        objectTips.Add("Hello! I'm glad you came in. Let me know how your experiment turns out.");
+        objectTips.Add("I signed up to go to the biotech networking event next month. I hope you go, too!");
+        objectTips.Add("Could you do me a favor and check if the counter-top centrifuge is empty?");
+        objectTips.Add("The solution in the flasks on the counter just turned green. Check it out!");
         objectTips.Add("I don't know who had some trays in the incubator, but I moved them a little to make room.");
         objectTips.Add("The reagent that was back-ordered came in. I put it in the refrigerator.");
 
@@ -142,7 +142,7 @@ public class Scenario1 : MonoBehaviour
         }
         else if (finishedObjectiveFromObjects && !talkedtoPeers)
         {
-            DialogueManager.instance.PlayerTalkToSelf("Oops! I was supposed to talk with some of my peers about my idea.", false);
+            DialogueManager.instance.PlayerTalkToSelf("Oops! I was supposed to talk with some of my peers about my innovative idea that I might use to start a business.", false);
         }
         else{
             DialogueManager.instance.PlayerTalkToSelf("Oops! I forgot I had some lab work to finish before I leave.", false);
@@ -200,8 +200,8 @@ public class Scenario1 : MonoBehaviour
         if (gotMentor == false)
         {
             gotMentor = true;
-            NotificationManager.instance.ObjectiveNotify("<b> Achievement:</b> Networked A Mentor!");
-            //  NotificationManager.instance.QuickNotify("<b>Netowrked A Mentor!</b> ");
+            NotificationManager.instance.ObjectiveNotify("<b> Achievement:</b> Found a Potential Mentor!");
+            //  NotificationManager.instance.QuickNotify("<b>Found a Potential Mentor!</b> ");
         }
 
         CheckIfDemoIsOver();
