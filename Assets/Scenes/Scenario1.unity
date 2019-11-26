@@ -4979,8 +4979,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, No Confidence
       ID: 2
-      sentence: "You\u2019d be surprised. You could get help at the technology transfer
-        office or talk with people at the networking event next month."
+      sentence: "You\u2019d be surprised how much help is available. Your advisor,
+        the technology transfer office, or people at networking events can tell you
+        how to get help."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -34141,8 +34142,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - Maybe, No Confidence
       ID: 2
-      sentence: "You\u2019d be surprised. You could get help at the technology transfer
-        office or talk with people at the networking event next month."
+      sentence: "You\u2019d be surprised how much help is available. Your advisor,
+        the technology transfer office, or people at networking events can tell you
+        how to get help."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -45581,8 +45583,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - A little interest but no confidence
       ID: 2
-      sentence: "You\u2019d be surprised. You could get help at the technology transfer
-        office or talk with people at the networking event next month."
+      sentence: "You\u2019d be surprised how much help is available. Your advisor,
+        the technology transfer office, or people at networking events can tell you
+        how to get help."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -59948,8 +59951,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - A little interest but no confidence
       ID: 2
-      sentence: "You\u2019d be surprised. You could get help at the technology transfer
-        office or talk with people at the networking event next month."
+      sentence: "You\u2019d be surprised how much help is available. Your advisor,
+        the technology transfer office, or people at networking events can tell you
+        how to get help."
       hasOptions: 0
       playerTalking: 0
       options:
@@ -77487,8 +77491,9 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[3].sentence
-      value: "You\u2019d be surprised. You could get help at the technology transfer
-        office or talk with people at the networking event next month."
+      value: "You\u2019d be surprised how much help is available. Your advisor, the
+        technology transfer office, or people at networking events can tell you how
+        to get help."
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -80274,8 +80279,9 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Answer - A little interest but no confidence
       ID: 2
-      sentence: "You\u2019d be surprised. You could get help at the technology transfer
-        office or talk with people at the networking even next month."
+      sentence: "You\u2019d be surprised how much help is available. Your advisor,
+        the technology transfer office, or people at networking events can tell you
+        how to get help."
       hasOptions: 0
       playerTalking: 1
       options:
