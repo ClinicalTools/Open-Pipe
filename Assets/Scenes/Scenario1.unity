@@ -64854,8 +64854,8 @@ MonoBehaviour:
             m_CallState: 2
     - eventName: Business tip
       ID: 2
-      sentence: Sure. Get a Small Business Innovative Research (SBIR) grant. Then,
-        you can apply for the NIH program ICorp to develop your business plan.
+      sentence: Sure. To get help applying for a Small Business Innovative Research
+        (SBIR) grant, apply for the NIH's Applicant Assistance Program.
       hasOptions: 0
       playerTalking: 0
       options:
