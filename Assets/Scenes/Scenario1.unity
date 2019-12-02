@@ -10474,13 +10474,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4453650917259992231, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453650917259992231, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
+        type: 3}
       propertyPath: m_BoundingSphereOverride.w
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4453650917259992231, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
-      propertyPath: m_BoundingSphereOverride.x
-      value: 0
+      propertyPath: m_BoundingSphereOverride.w
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4453650917259992231, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
@@ -10499,6 +10504,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4453650917259992231, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453650917259992231, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
+        type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: 0
       objectReference: {fileID: 0}
@@ -10534,11 +10544,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4453650917465477179, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453650917465477179, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
+        type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4453650917801282376, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453650917801282376, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
+        type: 3}
       propertyPath: m_BoundingSphereOverride.x
       value: 0
       objectReference: {fileID: 0}
@@ -10554,28 +10574,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4453650917801282376, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
-      propertyPath: m_BoundingSphereOverride.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4453650917801282376, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.y
-      value: 0
+      propertyPath: m_BoundingSphereOverride.w
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4453650917801282376, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453650917801282376, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453650917801282376, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4453650917801282376, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
       propertyPath: m_UseBoundingSphereOverride
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4453650917801282376, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.z
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4453650917801282376, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
@@ -10597,6 +10617,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: InteractedWithObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453650917801282376, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4453650917679858193, guid: 8444ce78a41e4fd4fb9bc13f22b2e3bf,
         type: 3}
@@ -56372,8 +56397,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You successfully networked with a mentor, and got all the tips needed to
-    make a solid pitch!
+  m_Text: You successfully networked with a potential mentor, and gathered 3  tips
+    on how to make a solid pitch!
 --- !u!222 &1393505935
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -73624,7 +73649,7 @@ MonoBehaviour:
       ID: 3
       sentence: "Yes. Don\u2019t develop the perfect business plan in every detail.
         Make decisions quickly enough to keep forward momentum. Most of your decisions
-        will be right or good enough. "
+        will be good enough. "
       hasOptions: 0
       playerTalking: 0
       options:
@@ -88996,6 +89021,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3483747158125727921, guid: 236aa57d338b53c4684974d72f2da697,
+        type: 3}
+      propertyPath: m_Name
+      value: NetworkingEvent (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 3483747158125727922, guid: 236aa57d338b53c4684974d72f2da697,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -89050,11 +89080,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3483747158125727921, guid: 236aa57d338b53c4684974d72f2da697,
-        type: 3}
-      propertyPath: m_Name
-      value: NetworkingEvent (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3483747157746948819, guid: 236aa57d338b53c4684974d72f2da697,
         type: 3}
