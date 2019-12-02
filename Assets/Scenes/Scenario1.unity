@@ -56362,8 +56362,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You successfully networked with a mentor, and got all the tips needed to
-    make a solid pitch!
+  m_Text: You successfully networked with a potential mentor, and gathered 3  tips
+    on how to make a solid pitch!
 --- !u!222 &1393505935
 CanvasRenderer:
   m_ObjectHideFlags: 0
