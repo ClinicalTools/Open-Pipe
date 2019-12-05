@@ -84,7 +84,10 @@ public class MenuHandler : MonoBehaviour
     }
 
     public void CreateButtonClicked() {
-        CheckFOSAndSkills();
+        SceneManager.LoadScene(1);
+
+        // Bring this back when the menus are ready
+        /* CheckFOSAndSkills();
 
         if (hasFOS && hasCheckbox) {
             SentryNameAndProfile();
@@ -93,6 +96,7 @@ public class MenuHandler : MonoBehaviour
                 SceneManager.LoadScene(1);
             } else OpenCharacterScreen();
         }
+        /*
     }
 
     public void CheckFOSAndSkills(){
