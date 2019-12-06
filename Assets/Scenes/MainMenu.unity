@@ -6594,6 +6594,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 491151321}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6663,16 +6673,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 13.827945
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -11067,6 +11067,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 491151321}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11136,16 +11146,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 13.827945
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -12032,7 +12032,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &639103198
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13093,7 +13093,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
+  m_SizeDelta: {x: 643.8, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &684065611
 MonoBehaviour:
@@ -13113,9 +13113,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 3fa2e05de926d674093538978ad57353, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -16214,6 +16214,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 491151321}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerMonitor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16283,16 +16293,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5871037
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerMonitor (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
@@ -17494,7 +17494,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &915850150
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19475,6 +19475,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 491151321}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerMonitor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19544,16 +19554,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5871037
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerMonitor (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
@@ -21745,6 +21745,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 491151321}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerMonitor (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21814,16 +21824,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5871037
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerMonitor (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
@@ -22027,7 +22027,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1136356791
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22044,7 +22044,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.36, y: 84.2}
+  m_AnchoredPosition: {x: 0.36, y: 197.2}
   m_SizeDelta: {x: 206.5, y: 50.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1136356792
@@ -22094,6 +22094,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 491151321}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerMonitor
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22163,16 +22173,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5871037
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerMonitor
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 5ed8e9db5ef78354e90642d3db575c1e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 5ed8e9db5ef78354e90642d3db575c1e,
         type: 3}
@@ -31472,10 +31472,10 @@ RectTransform:
   m_Father: {fileID: 915850150}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 13, y: -16.655}
-  m_SizeDelta: {x: 20, y: 20}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 643.8, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614269934
 MonoBehaviour:
@@ -31495,9 +31495,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: 2e2833b11b0c6b649a1f65bf30930d99, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -31901,6 +31901,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 491151321}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31970,16 +31980,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 13.827945
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -36485,6 +36485,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 491151321}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_Name
+      value: ComputerKeyboard (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36554,16 +36564,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 13.827945
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_Name
-      value: ComputerKeyboard (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 3740d6ea14cd4f94da2a74fd38213210,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 3740d6ea14cd4f94da2a74fd38213210,
         type: 3}
@@ -37777,7 +37777,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1908691578
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37854,7 +37854,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1920621637
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37871,8 +37871,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0, y: 24.41}
+  m_SizeDelta: {x: 149.3, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1920621638
 MonoBehaviour:
@@ -37892,9 +37892,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 90c8d7f3c08a46449b9426a15c83d0fa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3fa2e05de926d674093538978ad57353, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
