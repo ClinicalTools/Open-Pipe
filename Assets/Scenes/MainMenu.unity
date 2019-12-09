@@ -6371,7 +6371,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &336931379
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11217,8 +11217,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 2214613724e2bfc419e850b5af787456, type: 3}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: f6efc3dc53a7e334195951d945b6a2fc, type: 3}
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -11229,7 +11229,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'NAME:'
+  m_Text: 'Name:'
 --- !u!222 &600212498
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19119,8 +19119,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 2214613724e2bfc419e850b5af787456, type: 3}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: f6efc3dc53a7e334195951d945b6a2fc, type: 3}
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -19131,7 +19131,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'AVATAR:'
+  m_Text: 'Avatar:'
 --- !u!222 &975791809
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34245,8 +34245,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -32.4}
-  m_SizeDelta: {x: 542.8, y: 212.09998}
+  m_AnchoredPosition: {x: 0, y: -18.8}
+  m_SizeDelta: {x: 678.5, y: 212.09998}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1694667510
 MonoBehaviour:
@@ -34294,9 +34294,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: In this scenario, you will play the role of a fourth-year graduate student
+  m_Text: "In this scenario, you will play the role of a fourth-year graduate student
     in the life sciences whose research involves purifying cell extracts for use in
-    cancer research.
+    cancer research. The next step for her might be to develop her work in the private
+    sector.  Help her learn more in\r <i>Business Encounters: Life Scientist</i>"
 --- !u!222 &1694667512
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -41669,7 +41670,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -5}
+  m_AnchoredPosition: {x: 0, y: 17.9}
   m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107413806
