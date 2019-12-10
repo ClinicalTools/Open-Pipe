@@ -5856,7 +5856,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: A little interest but no confidence
-        option: 'I''m not sure I have what it takes to run a business. '
+        option: "I don\u2019t know anything about starting a business."
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -44420,7 +44420,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: A little interest but no confidence
-        option: "I\u2019m not sure I have what it takes to run a business. "
+        option: "I don\u2019t know anything about starting a business."
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -49644,8 +49644,9 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Answer
       ID: 1
-      sentence: ' Yes. Sue Jones in the white jacket, purple blouse. She started her
-        business a few years ago and is very successful.'
+      sentence: ' Yes. I got a list of alumnae with startups from the univerisity.
+        They are usually helpful. Sue Jones in the white jacket, purple blouse was
+        on the list. '
       hasOptions: 0
       playerTalking: 0
       options:
@@ -59707,7 +59708,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: A little interest but no confidence
-        option: "I\u2019m not sure I have what it takes to run a business."
+        option: "I don\u2019t know anything about starting a business."
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -66782,14 +66783,15 @@ MonoBehaviour:
           m_Calls: []
     - eventName: Advisor TIP
       ID: 2
-      sentence: "Yes, I would. Let\u2019s exchange cards and you can send me an email.
-        We can schedule a coffee and you can tell me more about your idea. "
+      sentence: "Yes, I would. Let\u2019s exchange emails. We can schedule a coffee
+        and you can tell me more about your idea. "
       hasOptions: 0
       playerTalking: 0
       options:
       - actionName: Ask her to be your mentor
         option: I'm looking for a mentor to help me develop my research idea to launch
-          a business. Is that something you would consider?
+          a business. With your experience in a similar field, I'd really enjoy learning
+          from you. Is that something you would consider?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -77582,7 +77584,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: A little interest but no confidence
-        option: "I\u2019m not sure I have what it takes to run a business."
+        option: "I don\u2019t know anything about starting a business."
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -83713,8 +83715,8 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: Ask for a business tip
-        option: I have an idea to start a business based on my research. Do you have
-          any advice for developing it?
+        option: I have an idea to start a business based on my work in cell extracts
+          used in cancer research. Do you have any advice for developing it?
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:
@@ -100112,7 +100114,7 @@ PrefabInstance:
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
       propertyPath: dialogue.interactions.Array.data[1].options.Array.data[1].option
-      value: "I\u2019m not sure I have what it takes to run a business."
+      value: "I don\u2019t know anything about starting a business."
       objectReference: {fileID: 0}
     - target: {fileID: 5965131025711925079, guid: 98227eaffa294ac469bdf112a8137dd5,
         type: 3}
@@ -102241,7 +102243,7 @@ MonoBehaviour:
       sentence: Your research has real commercial potential! Have you thought about
         launching a business?
       hasOptions: 1
-      playerTalking: 0
+      playerTalking: 1
       options:
       - actionName: No. I'm not interested in business
         option: 'Not me. I have no interest in dealing with business stuff. I enjoy
@@ -102261,7 +102263,7 @@ MonoBehaviour:
                 m_BoolArgument: 0
               m_CallState: 2
       - actionName: A little interest but no confidence
-        option: "I\u2019m not sure I have what it takes to run a business."
+        option: "I don\u2019t know anything about starting a business."
         OptionClickedAction:
           m_PersistentCalls:
             m_Calls:

@@ -61,7 +61,7 @@ public class Scenario1 : MonoBehaviour
     /// HAD TO ADD THIS BECAUSE UNITY VERSION BEING USED IS NOT STABLE AND GETS RID OF THESE VALUES THROUGH THE INSPECTOR FROM HAVING INTERNAL ISSUES
     /// </summary>
     public void AddObjectTips() {
-        objectTips.Add("Hello! I'm glad you came in. Let me know how your experiment turns out.");
+        objectTips.Add("Hello! I'm glad you came in to the lab. Let me know how your experiment turns out.");
         objectTips.Add("I signed up to go to the biotech networking event next month. I hope you go, too!");
         objectTips.Add("Could you do me a favor and check if the counter-top centrifuge is empty?");
         objectTips.Add("The solution in the flasks on the counter just turned green. Check it out!");
