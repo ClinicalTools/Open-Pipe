@@ -96,7 +96,8 @@ public class MenuHandler : MonoBehaviour
                 SceneManager.LoadScene(1);
             } else OpenCharacterScreen();
         }
-        /*
+        */
+
     }
 
     public void CheckFOSAndSkills(){
