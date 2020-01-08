@@ -80,21 +80,25 @@ public class Scenario1 : MonoBehaviour
         {
             interactedObjects++;
             usedCentrifuge = true;
+            NotificationManager.instance.TipNotify("<b>Objects Interacted : </b>" + interactedObjects + "/2");
         }
         else if (iObject.GetComponent<LabInteractables>().objectType == LabInteractables.ObjectType.FRIDGE && usedFridge == false)
         {
             interactedObjects++;
             usedFridge = true;
+            NotificationManager.instance.TipNotify("<b>Objects Interacted : </b>" + interactedObjects + "/2");
         }
         else if (iObject.GetComponent<LabInteractables>().objectType == LabInteractables.ObjectType.GLASSWARE && usedGlassware == false)
         {
             interactedObjects++;
             usedGlassware = true;
+            NotificationManager.instance.TipNotify("<b>Objects Interacted : </b>" + interactedObjects + "/2");
         }
         else if (iObject.GetComponent<LabInteractables>().objectType == LabInteractables.ObjectType.INCUBATOR && usedIncubator == false)
         {
             interactedObjects++;
             usedIncubator = true;
+            NotificationManager.instance.TipNotify("<b>Objects Interacted : </b>" + interactedObjects + "/2");
         }
 
         if (interactedObjects >= 2)

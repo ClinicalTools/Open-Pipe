@@ -65,8 +65,8 @@ public class PlayerManager : MonoBehaviour
         //Set the menuOptions not visible
         GameHandler.instance.ChangeObectListVisibility(menuOptions, false);
         playerImage.sprite = PlayerDataController.instance.playerImage;
-        playerName.text = PlayerDataController.instance.name;
-        playerSaveName = PlayerDataController.instance.name;
+        playerName.text = PlayerDataController.instance.playerName;
+        playerSaveName = PlayerDataController.instance.playerName;
     }
 
     /// <summary>
